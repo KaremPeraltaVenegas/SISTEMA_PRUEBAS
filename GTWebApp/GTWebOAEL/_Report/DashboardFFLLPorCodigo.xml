@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="es-PE">
+  <Title Text="Análisis de Mano de Obra Local" />
+  <DataSources>
+    <SqlDataSource ComponentName="DashboardSqlDataSource1">
+      <Name>DataSourceFFLL</Name>
+      <Connection Name="localhost_GTManpowerLocal_ConnectionAPP" FromAppConfig="true" />
+      <Query Type="StoredProcQuery" Name="Query">
+        <Parameter Name="@iCodFuerzaLaboral" Type="DevExpress.DataAccess.Expression">(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)([Parameters.iCodFuerzaLaboral])</Parameter>
+        <Parameter Name="@iCodContrato" Type="DevExpress.DataAccess.Expression">(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)([Parameters.iCodContrato])</Parameter>
+        <ProcName>rpt.SP_DASH_FuerzaLaboralResumenPorCodigo</ProcName>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="DataSourceFFLL">
+          <View Name="Query">
+            <Field Name="CONTRATISTA" Type="String" />
+            <Field Name="SUB CONTRATA" Type="String" />
+            <Field Name="FASE" Type="String" />
+            <Field Name="NRO. CONTRATO" Type="String" />
+            <Field Name="ZONA" Type="String" />
+            <Field Name="FECHA TERMINO" Type="DateTime" />
+            <Field Name="NOMBRE CONTRATO" Type="String" />
+            <Field Name="APELLIDOS Y NOMBRES" Type="String" />
+            <Field Name="DNI" Type="String" />
+            <Field Name="GENERO" Type="String" />
+            <Field Name="TIPO MMOO" Type="String" />
+            <Field Name="OCUPACION" Type="String" />
+            <Field Name="UBIGEO" Type="String" />
+            <Field Name="CONDICION" Type="String" />
+            <Field Name="CONDICION DET." Type="String" />
+            <Field Name="TIPOAID" Type="String" />
+            <Field Name="COMUNIDAD" Type="String" />
+            <Field Name="PROVINCIA" Type="String" />
+            <Field Name="DOC. SUSTENTO" Type="String" />
+            <Field Name="STATUS" Type="String" />
+            <Field Name="EECC TIPO" Type="String" />
+            <Field Name="EECC NOMBRE" Type="String" />
+            <Field Name="EDAD" Type="Int32" />
+            <Field Name="LUGAR PERNOCTE" Type="String" />
+            <Field Name="EstadoContrato" Type="String" />
+            <Field Name="MOC LOCAL" Type="Decimal" />
+            <Field Name="MONC LOCAL" Type="Decimal" />
+            <Field Name="MOSC LOCAL" Type="Decimal" />
+            <Field Name="TIPO REGISTRO" Type="String" />
+            <Field Name="LINEAREGISTRO" Type="Int32" />
+            <Field Name="REGISTROLOCAL" Type="Int32" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" />
+      <CalculatedFields>
+        <CalculatedField Name="TotalRegAgr" Expression="aggr(Count())" DataType="Auto" DataMember="Query" />
+        <CalculatedField Name="TotalRegCondicion" Expression="Aggr(Count(), [CONDICION])" DataType="Auto" DataMember="Query" />
+        <CalculatedField Name="TotalTipoMMOOCondicion" Expression="Aggr(Count(), [TIPO MMOO], [CONDICION])" DataType="Auto" DataMember="Query" />
+        <CalculatedField Name="TotalRegistros" Expression="Max(Aggr(Sum([LINEAREGISTRO])))" DataType="Auto" DataMember="Query" />
+        <CalculatedField Name="TotalMOCLocal" Expression="Sum(Iif([TIPO MMOO] = 'MOC' And [CONDICION] = 'LOCAL', 1, 0))" DataType="Auto" DataMember="Query" />
+        <CalculatedField Name="TotalMOC" Expression="Sum(Iif([TIPO MMOO] = 'MOC', 1, 0))" DataType="Auto" DataMember="Query" />
+        <CalculatedField Name="TasaMOCLocal" Expression="aggr([TotalMOCLocal] / [TotalMOC])" DataType="Auto" DataMember="Query" />
+        <CalculatedField Name="TotalSumTipoMMOO" Expression="aggr(Sum([LINEAREGISTRO]), [TIPO MMOO])" DataType="Auto" DataMember="Query" />
+        <CalculatedField Name="Campo calculado 1" Expression="[TotalTipoMMOOCondicion] * 1.0 / ([TotalSumTipoMMOO] * 1.0)" DataType="Auto" DataMember="Query" />
+        <CalculatedField Name="PorMocLocal" Expression="[TotalMOCLocal] * 1.0 / ([TotalMOC] * 1.0)" DataType="Auto" DataMember="Query" />
+      </CalculatedFields>
+    </SqlDataSource>
+  </DataSources>
+  <Parameters>
+    <Parameter Name="iCodFuerzaLaboral" Type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Value="0" Description="iCodFuerzaLaboral" />
+  </Parameters>
+  <Items>
+    <Pie ComponentName="PieDashboardItem1" Name="Por Género" DataSource="DashboardSqlDataSource1" DataMember="Query" ShowPieCaptions="false">
+      <ColoringOptions MeasuresColoringMode="Hue" />
+      <DataItems>
+        <Measure DataMember="GENERO" Name="Distribución por Genero" SummaryType="Count" DefaultId="DataItem0" />
+        <Dimension DataMember="GENERO" DefaultId="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Values>
+        <Value DefaultId="DataItem0" />
+      </Values>
+    </Pie>
+    <Chart ComponentName="ChartDashboardItem3" Name="Total Local vs Foráneo" DataSource="DashboardSqlDataSource1" DataMember="Query">
+      <DataItems>
+        <Dimension DataMember="CONDICION" SortOrder="Descending" DefaultId="DataItem2" />
+        <Measure DataMember="TotalRegCondicion" Name="Total HC FFLL" DefaultId="DataItem0" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem2" />
+      </SeriesDimensions>
+      <Panes>
+        <Pane Name="Panel 1">
+          <Series>
+            <Simple>
+              <Value DefaultId="DataItem0" />
+              <PointLabelOptions ContentType="Value" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Grid ComponentName="GridDashboardItem1" Name="Distribución por Tipo de Mano de Obra" DataSource="DashboardSqlDataSource1" DataMember="Query">
+      <DataItems>
+        <Dimension DataMember="TIPO MMOO" DefaultId="DataItem3" />
+        <Dimension DataMember="CONDICION" DefaultId="DataItem1" />
+        <Measure DataMember="Campo calculado 1" Name="%" DefaultId="DataItem5">
+          <NumericFormat FormatType="Percent" />
+        </Measure>
+        <Measure DataMember="TotalTipoMMOOCondicion" Name="Total HC" DefaultId="DataItem0" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn Weight="60.162903405075404">
+          <Dimension DefaultId="DataItem3" />
+        </GridDimensionColumn>
+        <GridDimensionColumn Weight="57.756387268872395">
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+        <GridMeasureColumn Weight="47.528693690009575" AlwaysShowZeroLevel="true">
+          <Measure DefaultId="DataItem0" />
+        </GridMeasureColumn>
+        <GridMeasureColumn Weight="36.699371077096">
+          <Measure DefaultId="DataItem5" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions ColumnWidthMode="Manual" />
+    </Grid>
+    <Gauge ComponentName="GaugeDashboardItem1" Name="Ratio % MOC Objetivo" DataSource="DashboardSqlDataSource1" DataMember="Query">
+      <DataItems>
+        <Measure DataMember="PorMocLocal" DefaultId="DataItem1">
+          <NumericFormat FormatType="Percent" />
+        </Measure>
+        <Measure DataMember="MOC LOCAL" SummaryType="Max" DefaultId="DataItem0">
+          <NumericFormat FormatType="Percent" />
+        </Measure>
+      </DataItems>
+      <GaugeElement Name="% MOC Local Cumplimiento vs Objetivo" Minimum="0" Maximum="1">
+        <TargetValue DefaultId="DataItem0" />
+        <ActualValue DefaultId="DataItem1" />
+        <AbsoluteVariationNumericFormat />
+        <PercentVariationNumericFormat />
+        <PercentOfTargetNumericFormat />
+      </GaugeElement>
+    </Gauge>
+    <Chart ComponentName="ChartDashboardItem1" Name="Distribución por Tipo de MMOO" DataSource="DashboardSqlDataSource1" DataMember="Query">
+      <DataItems>
+        <Dimension DataMember="CONDICION" DefaultId="DataItem2" />
+        <Dimension DataMember="TIPO MMOO" DefaultId="DataItem1" />
+        <Measure DataMember="TotalTipoMMOOCondicion" Name="% Local - Foráneo" DefaultId="DataItem0" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem2" />
+      </SeriesDimensions>
+      <Arguments>
+        <Argument DefaultId="DataItem1" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Panel 1">
+          <Series>
+            <Simple SeriesType="FullStackedBar">
+              <Value DefaultId="DataItem0" />
+              <PointLabelOptions ContentType="Value, Percent" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Orientation="Vertical">
+      <LayoutGroup Weight="49.8567335243553">
+        <LayoutItem DashboardItem="ChartDashboardItem3" Weight="27.323162274618586" />
+        <LayoutItem DashboardItem="GridDashboardItem1" Weight="39.25104022191401" />
+        <LayoutItem DashboardItem="ChartDashboardItem1" Weight="33.425797503467408" />
+      </LayoutGroup>
+      <LayoutGroup Weight="50.1432664756447">
+        <LayoutItem DashboardItem="GaugeDashboardItem1" Weight="49.791955617198333" />
+        <LayoutItem DashboardItem="PieDashboardItem1" Weight="50.208044382801667" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

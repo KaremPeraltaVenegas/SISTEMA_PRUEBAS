@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/de/DevExpress.Data.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:58:58</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Printing.v17.2.Core.resources.dll">
+      <publishTime>01/03/2020 10:59:14</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.RichEdit.v17.2.Core.resources.dll">
+      <publishTime>01/03/2020 10:59:27</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.Resources.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:59:18</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:58:47</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v17.2.dll">
+      <publishTime>01/03/2020 10:58:58</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v17.2.Core.dll">
+      <publishTime>01/03/2020 10:59:14</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v17.2.Core.dll">
+      <publishTime>01/03/2020 10:59:27</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v17.2.Export.dll">
+      <publishTime>01/03/2020 10:59:27</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v17.2.dll">
+      <publishTime>01/03/2020 10:58:48</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.Resources.v17.2.dll">
+      <publishTime>01/03/2020 10:59:19</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v17.2.dll">
+      <publishTime>01/03/2020 10:58:47</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:59:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Printing.v17.2.Core.resources.dll">
+      <publishTime>01/03/2020 10:59:14</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.RichEdit.v17.2.Core.resources.dll">
+      <publishTime>01/03/2020 10:59:27</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.Resources.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:59:19</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:58:47</publishTime>
+    </File>
+    <File Include="bin/GTManpowerWeb.dll">
+      <publishTime>02/04/2020 11:52:31</publishTime>
+    </File>
+    <File Include="bin/GTManpowerWeb.xml">
+      <publishTime>02/04/2020 11:52:31</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:59:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Printing.v17.2.Core.resources.dll">
+      <publishTime>01/03/2020 10:59:14</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.RichEdit.v17.2.Core.resources.dll">
+      <publishTime>01/03/2020 10:59:27</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.Resources.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:59:19</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:58:47</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:59:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Printing.v17.2.Core.resources.dll">
+      <publishTime>01/03/2020 10:59:14</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.RichEdit.v17.2.Core.resources.dll">
+      <publishTime>01/03/2020 10:59:27</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.Resources.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:59:19</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.v17.2.resources.dll">
+      <publishTime>01/03/2020 10:58:47</publishTime>
+    </File>
+    <File Include="Content/Images/AquaHeader.jpg">
+      <publishTime>01/16/2020 11:34:03</publishTime>
+    </File>
+    <File Include="Content/Images/BlackGlassHeader.jpg">
+      <publishTime>01/16/2020 11:34:03</publishTime>
+    </File>
+    <File Include="Content/Images/GlassHeader.jpg">
+      <publishTime>01/16/2020 11:34:03</publishTime>
+    </File>
+    <File Include="Content/Images/PlasticBlueHeader.jpg">
+      <publishTime>01/16/2020 11:34:03</publishTime>
+    </File>
+    <File Include="Content/Images/RedWineHeader.jpg">
+      <publishTime>01/16/2020 11:34:03</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>01/24/2020 17:31:24</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/16/2020 11:33:58</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/16/2020 11:33:59</publishTime>
+    </File>
+    <File Include="Light.master">
+      <publishTime>01/16/2020 11:59:24</publishTime>
+    </File>
+    <File Include="Main.master">
+      <publishTime>01/17/2020 13:01:13</publishTime>
+    </File>
+    <File Include="Root.master">
+      <publishTime>02/04/2020 10:29:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/04/2020 11:58:27</publishTime>
+    </File>
+    <File Include="_Report/FrmRptDashboardViewer.aspx">
+      <publishTime>01/24/2020 17:36:28</publishTime>
+    </File>
+    <File Include="_Views/FrmAnexoAdmision.aspx">
+      <publishTime>01/17/2020 13:15:45</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

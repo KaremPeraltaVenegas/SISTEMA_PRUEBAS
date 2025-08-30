@@ -1,0 +1,5486 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GTWebOAEL
+</name>
+</assembly>
+<members>
+<member name="F:GTWebOAEL.Win_Dashboards.DashboardFFLL.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:GTWebOAEL.Win_Dashboards.DashboardFFLL.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:GTWebOAEL.Win_Dashboards.DashboardFFLL.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:GTWebOAEL.RootMaster.Body">
+	<summary>
+Control Body.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.HeaderPane">
+	<summary>
+Control HeaderPane.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.ASPxRibbon1">
+	<summary>
+Control ASPxRibbon1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.MainPane">
+	<summary>
+Control MainPane.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.Content">
+	<summary>
+Control Content.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.FooterPane">
+	<summary>
+Control FooterPane.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.LblInfoManpower">
+	<summary>
+Control LblInfoManpower.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.BtnCerrarLogin">
+	<summary>
+Control BtnCerrarLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.LblInfoUsuario">
+	<summary>
+Control LblInfoUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.CallBackMainPage">
+	<summary>
+Control CallBackMainPage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.PopupFormChangeClave">
+	<summary>
+Control PopupFormChangeClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.PopupControlContentControl5">
+	<summary>
+Control PopupControlContentControl5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.FormLayoutPopupChangeClave">
+	<summary>
+Control FormLayoutPopupChangeClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.cClave">
+	<summary>
+Control cClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.cClaveNueva">
+	<summary>
+Control cClaveNueva.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.cClaveNueva2">
+	<summary>
+Control cClaveNueva2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.BtnGuardarClave">
+	<summary>
+Control BtnGuardarClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.BtnCerrarFormClave">
+	<summary>
+Control BtnCerrarFormClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.PopupFormSubContrata">
+	<summary>
+Control PopupFormSubContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.PopupControlContentControl1">
+	<summary>
+Control PopupControlContentControl1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.FormLayoutSubContrata">
+	<summary>
+Control FormLayoutSubContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.cRUCSubContrataMain">
+	<summary>
+Control cRUCSubContrataMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.cNomSubContrataMain">
+	<summary>
+Control cNomSubContrataMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.BtnGuardarSubContrata">
+	<summary>
+Control BtnGuardarSubContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.BtnCancelarSubContrata">
+	<summary>
+Control BtnCancelarSubContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.PopupAlertMessageMain">
+	<summary>
+Control PopupAlertMessageMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.RootMaster.PopupControlContentAlertMain">
+	<summary>
+Control PopupControlContentAlertMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.FormLayoutLogin">
+	<summary>
+Control FormLayoutLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.cToken">
+	<summary>
+Control cToken.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.gRecaptchaResponse">
+	<summary>
+Control gRecaptchaResponse.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.cUsuario">
+	<summary>
+Control cUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.cClave">
+	<summary>
+Control cClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.btnTogglePassword">
+	<summary>
+Control btnTogglePassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.BtnLogin">
+	<summary>
+Control BtnLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.BtnRecuperarClave">
+	<summary>
+Control BtnRecuperarClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.LblMessage">
+	<summary>
+Control LblMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.PopupFormRecoveryClave">
+	<summary>
+Control PopupFormRecoveryClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.PopupControlContentControl5">
+	<summary>
+Control PopupControlContentControl5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.FormLayoutPopupRecoveryClave">
+	<summary>
+Control FormLayoutPopupRecoveryClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.cUsuarioRecovery">
+	<summary>
+Control cUsuarioRecovery.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.BtnRecoveryClave">
+	<summary>
+Control BtnRecoveryClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.BtnCerrarFormRecoveryClave">
+	<summary>
+Control BtnCerrarFormRecoveryClave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Login.LblRecovery">
+	<summary>
+Control LblRecovery.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Win_Dashboards.DashboardFFLLIngresoCese.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:GTWebOAEL.Win_Dashboards.DashboardFFLLIngresoCese.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:GTWebOAEL.Win_Dashboards.DashboardFFLLIngresoCese.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:GTWebOAEL.FrmRptDashboardViewer.ASPxDashboard1">
+	<summary>
+Control ASPxDashboard1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.CallBackFunctionEnvio">
+	<summary>
+Control CallBackFunctionEnvio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cEstadoMain">
+	<summary>
+Control cEstadoMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupFormMain">
+	<summary>
+Control PopupFormMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.FormLayoutPopup">
+	<summary>
+Control FormLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.iCodContratistaContrato">
+	<summary>
+Control iCodContratistaContrato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cEstado">
+	<summary>
+Control cEstado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.iCodAnexoAdmisionTipo">
+	<summary>
+Control iCodAnexoAdmisionTipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cGrupo">
+	<summary>
+Control cGrupo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cPersonaSolicita">
+	<summary>
+Control cPersonaSolicita.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cPersonaSolicitaCargo">
+	<summary>
+Control cPersonaSolicitaCargo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cAreaUsuaria">
+	<summary>
+Control cAreaUsuaria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cNotas">
+	<summary>
+Control cNotas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cObsDocumento">
+	<summary>
+Control cObsDocumento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnConfirmarEnviar">
+	<summary>
+Control BtnConfirmarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnImprimirFormatoPGI">
+	<summary>
+Control BtnImprimirFormatoPGI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnCancelar">
+	<summary>
+Control BtnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.CallBackFunctionDetalle">
+	<summary>
+Control CallBackFunctionDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.iCodRegistroDetalle">
+	<summary>
+Control iCodRegistroDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.TablaRegistrosDetalle">
+	<summary>
+Control TablaRegistrosDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupConfirmDelete">
+	<summary>
+Control PopupConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.FormLayoutConfirmDelete">
+	<summary>
+Control FormLayoutConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.LblDeleteConfirm">
+	<summary>
+Control LblDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnDeleteConfirm">
+	<summary>
+Control BtnDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnDeleteCancel">
+	<summary>
+Control BtnDeleteCancel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupNotification">
+	<summary>
+Control PopupNotification.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupControlContentControl4">
+	<summary>
+Control PopupControlContentControl4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.ASPxFormLayout1">
+	<summary>
+Control ASPxFormLayout1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.ASPxLabel2">
+	<summary>
+Control ASPxLabel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.ASPxButton1">
+	<summary>
+Control ASPxButton1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.ASPxButton2">
+	<summary>
+Control ASPxButton2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupFormMainCliDetalle">
+	<summary>
+Control PopupFormMainCliDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupControlContentControl1">
+	<summary>
+Control PopupControlContentControl1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.FormLayoutPopupDetalle">
+	<summary>
+Control FormLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.iCodCandidatoInforme">
+	<summary>
+Control iCodCandidatoInforme.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cDNI">
+	<summary>
+Control cDNI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cTipoDoc">
+	<summary>
+Control cTipoDoc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cApellidos">
+	<summary>
+Control cApellidos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cNombres">
+	<summary>
+Control cNombres.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cOcupacion">
+	<summary>
+Control cOcupacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cMOCMONC">
+	<summary>
+Control cMOCMONC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cUbigeo">
+	<summary>
+Control cUbigeo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cCondicion">
+	<summary>
+Control cCondicion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.iCodSubContrata">
+	<summary>
+Control iCodSubContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.iCodAnexoAdmisionTipoDet">
+	<summary>
+Control iCodAnexoAdmisionTipoDet.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cNota">
+	<summary>
+Control cNota.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.cObs">
+	<summary>
+Control cObs.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnGuardarDetalle">
+	<summary>
+Control BtnGuardarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnCancelarDetalle">
+	<summary>
+Control BtnCancelarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupControlContentControl2">
+	<summary>
+Control PopupControlContentControl2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupConfirmDeleteDetalle">
+	<summary>
+Control PopupConfirmDeleteDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupControlContentControl3">
+	<summary>
+Control PopupControlContentControl3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.FormConfirmLayoutPopupDetalle">
+	<summary>
+Control FormConfirmLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.ASPxLabel1">
+	<summary>
+Control ASPxLabel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnDeleteConfirmDetalle">
+	<summary>
+Control BtnDeleteConfirmDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnDeleteCancelDetalle">
+	<summary>
+Control BtnDeleteCancelDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupFormReportes">
+	<summary>
+Control PopupFormReportes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupControlContentControl7">
+	<summary>
+Control PopupControlContentControl7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.CallBackPanelReport">
+	<summary>
+Control CallBackPanelReport.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PanelContent1">
+	<summary>
+Control PanelContent1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.WebReportViewer">
+	<summary>
+Control WebReportViewer.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupConfirmarEnvio">
+	<summary>
+Control PopupConfirmarEnvio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupControlContentControl5">
+	<summary>
+Control PopupControlContentControl5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.ASPxFormLayout2">
+	<summary>
+Control ASPxFormLayout2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.ASPxLabel3">
+	<summary>
+Control ASPxLabel3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnGuardarEnviar">
+	<summary>
+Control BtnGuardarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.BtnCancelarEnviar">
+	<summary>
+Control BtnCancelarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.popup">
+	<summary>
+Control popup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PopupControlContentControl6">
+	<summary>
+Control PopupControlContentControl6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.CallbackPanelObs">
+	<summary>
+Control CallbackPanelObs.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.PanelContent2">
+	<summary>
+Control PanelContent2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAnexoAdmision.litText">
+	<summary>
+Control litText.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.CallBackFunctionEnvio">
+	<summary>
+Control CallBackFunctionEnvio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.cEstadoMain">
+	<summary>
+Control cEstadoMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.PopupFormMain">
+	<summary>
+Control PopupFormMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.FormLayoutPopup">
+	<summary>
+Control FormLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.iCodContratistaContrato">
+	<summary>
+Control iCodContratistaContrato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.cEstado">
+	<summary>
+Control cEstado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.iCodAnexoAdmisionTipo">
+	<summary>
+Control iCodAnexoAdmisionTipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.cGrupo">
+	<summary>
+Control cGrupo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.cPersonaSolicita">
+	<summary>
+Control cPersonaSolicita.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.cPersonaSolicitaCargo">
+	<summary>
+Control cPersonaSolicitaCargo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.cAreaUsuaria">
+	<summary>
+Control cAreaUsuaria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.cNotas">
+	<summary>
+Control cNotas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.cObsDocumento">
+	<summary>
+Control cObsDocumento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.BtnCancelar">
+	<summary>
+Control BtnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.CallBackFunctionDetalle">
+	<summary>
+Control CallBackFunctionDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.iCodRegistroDetalle">
+	<summary>
+Control iCodRegistroDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.TablaRegistrosDetalle">
+	<summary>
+Control TablaRegistrosDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.PopupConfirmDelete">
+	<summary>
+Control PopupConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.FormLayoutConfirmDelete">
+	<summary>
+Control FormLayoutConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.LblDeleteConfirm">
+	<summary>
+Control LblDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.BtnDeleteConfirm">
+	<summary>
+Control BtnDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.BtnDeleteCancel">
+	<summary>
+Control BtnDeleteCancel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.PopupFormReportes">
+	<summary>
+Control PopupFormReportes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.PopupControlContentControl7">
+	<summary>
+Control PopupControlContentControl7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.CallBackPanelReport">
+	<summary>
+Control CallBackPanelReport.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.PanelContent1">
+	<summary>
+Control PanelContent1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptAnexoAdmision.WebReportViewer">
+	<summary>
+Control WebReportViewer.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.PopupConfirmDelete">
+	<summary>
+Control PopupConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.FormLayoutConfirmDelete">
+	<summary>
+Control FormLayoutConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.LblDeleteConfirm">
+	<summary>
+Control LblDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.BtnDeleteConfirm">
+	<summary>
+Control BtnDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.BtnDeleteCancel">
+	<summary>
+Control BtnDeleteCancel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmCorreoEnvio.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Win_Dashboards.DashboardPGI.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:GTWebOAEL.Win_Dashboards.DashboardPGI.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:GTWebOAEL.Win_Dashboards.DashboardPGI.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:GTWebOAEL.FrmContrato.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.PopupFormMain">
+	<summary>
+Control PopupFormMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.PopupControlContentControl1">
+	<summary>
+Control PopupControlContentControl1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.FormLayoutPopup">
+	<summary>
+Control FormLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.cNroContrato">
+	<summary>
+Control cNroContrato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.dFechaTermino">
+	<summary>
+Control dFechaTermino.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.cZona">
+	<summary>
+Control cZona.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.iHeadCount">
+	<summary>
+Control iHeadCount.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.cNomContrato">
+	<summary>
+Control cNomContrato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.cAreaUsuaria">
+	<summary>
+Control cAreaUsuaria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.cAreaUsuariaSupervisor">
+	<summary>
+Control cAreaUsuariaSupervisor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.cDatosContacto">
+	<summary>
+Control cDatosContacto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.cObs">
+	<summary>
+Control cObs.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.BtnCancelar">
+	<summary>
+Control BtnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.PopupControlContentControl2">
+	<summary>
+Control PopupControlContentControl2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.PopupConfirmAnulacion">
+	<summary>
+Control PopupConfirmAnulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.PopupControlContentControl8">
+	<summary>
+Control PopupControlContentControl8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.FormConfirmAnulacionLayoutPopup">
+	<summary>
+Control FormConfirmAnulacionLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.ASPxLabel2">
+	<summary>
+Control ASPxLabel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.BtnDeleteConfirmAnulacion">
+	<summary>
+Control BtnDeleteConfirmAnulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.BtnDeleteCancelAnulacion">
+	<summary>
+Control BtnDeleteCancelAnulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmContrato.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.iCodCandidatoInforme">
+	<summary>
+Control iCodCandidatoInforme.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.FormLayoutConsulta">
+	<summary>
+Control FormLayoutConsulta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.cDNI">
+	<summary>
+Control cDNI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.cApellidos">
+	<summary>
+Control cApellidos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.cNombres">
+	<summary>
+Control cNombres.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.cUbigeo">
+	<summary>
+Control cUbigeo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.cCondicion">
+	<summary>
+Control cCondicion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.dFechaNac">
+	<summary>
+Control dFechaNac.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.cFono">
+	<summary>
+Control cFono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.BtnVerFichaPostulante">
+	<summary>
+Control BtnVerFichaPostulante.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.TablaRegistrosPGI">
+	<summary>
+Control TablaRegistrosPGI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.TablaRegistrosFFLL">
+	<summary>
+Control TablaRegistrosFFLL.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.TablaRegistroPostulaciones">
+	<summary>
+Control TablaRegistroPostulaciones.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.PopupFormReportes">
+	<summary>
+Control PopupFormReportes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.PopupControlContentControl7">
+	<summary>
+Control PopupControlContentControl7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.CallBackPanelReport">
+	<summary>
+Control CallBackPanelReport.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.PanelContent1">
+	<summary>
+Control PanelContent1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.WebReportViewer">
+	<summary>
+Control WebReportViewer.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConsulta.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.GTManpowerWeb.LightMaster.MainContent">
+	<summary>
+Control MainContent.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.PopupFormMain">
+	<summary>
+Control PopupFormMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.PopupControlContentControl1">
+	<summary>
+Control PopupControlContentControl1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.FormLayoutPopup">
+	<summary>
+Control FormLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.iCodPersona">
+	<summary>
+Control iCodPersona.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.iCodUsuario">
+	<summary>
+Control iCodUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.cNroDoc">
+	<summary>
+Control cNroDoc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.cSexo">
+	<summary>
+Control cSexo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.cApelP">
+	<summary>
+Control cApelP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.cNombres">
+	<summary>
+Control cNombres.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.cFono">
+	<summary>
+Control cFono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.cCorreo">
+	<summary>
+Control cCorreo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.iCodContrata">
+	<summary>
+Control iCodContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.cTipo">
+	<summary>
+Control cTipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.bAcceder">
+	<summary>
+Control bAcceder.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.BtnCancelar">
+	<summary>
+Control BtnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.PopupControlContentControl2">
+	<summary>
+Control PopupControlContentControl2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.PopupConfirmDelete">
+	<summary>
+Control PopupConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.PopupControlContentControl3">
+	<summary>
+Control PopupControlContentControl3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.FormLayoutConfirmDelete">
+	<summary>
+Control FormLayoutConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.LblDeleteConfirm">
+	<summary>
+Control LblDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.BtnDeleteConfirm">
+	<summary>
+Control BtnDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.BtnDeleteCancel">
+	<summary>
+Control BtnDeleteCancel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrataActivo.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Win_Dashboards.DashboardFFLLSemana.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:GTWebOAEL.Win_Dashboards.DashboardFFLLSemana.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:GTWebOAEL.Win_Dashboards.DashboardFFLLSemana.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="P:GTWebOAEL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:GTWebOAEL.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="T:GTWebOAEL.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="F:GTWebOAEL.MainMaster.MainContent">
+	<summary>
+Control MainContent.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptViewer.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptViewer.WebReportViewer">
+	<summary>
+Control WebReportViewer.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.Win_Dashboards.DashboardPGIAnexoAdmisionResumen.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:GTWebOAEL.Win_Dashboards.DashboardPGIAnexoAdmisionResumen.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:GTWebOAEL.Win_Dashboards.DashboardPGIAnexoAdmisionResumen.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.cTipoVerGrilla">
+	<summary>
+Control cTipoVerGrilla.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupFormMain">
+	<summary>
+Control PopupFormMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupControlContentControl1">
+	<summary>
+Control PopupControlContentControl1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.FormLayoutPopup">
+	<summary>
+Control FormLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iCodSubContrata">
+	<summary>
+Control iCodSubContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iCodContratistaContrato">
+	<summary>
+Control iCodContratistaContrato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.dFechaIni">
+	<summary>
+Control dFechaIni.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.dFechaFin">
+	<summary>
+Control dFechaFin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.cSolicitante">
+	<summary>
+Control cSolicitante.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.cObs">
+	<summary>
+Control cObs.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnAprobarFinalizar">
+	<summary>
+Control BtnAprobarFinalizar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnDesaprobarFinalizar">
+	<summary>
+Control BtnDesaprobarFinalizar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnCancelar">
+	<summary>
+Control BtnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.CallBackFunctionDetalle">
+	<summary>
+Control CallBackFunctionDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iCodRegistroDetalle">
+	<summary>
+Control iCodRegistroDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.TablaRegistrosDetalle">
+	<summary>
+Control TablaRegistrosDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupControlContentControl2">
+	<summary>
+Control PopupControlContentControl2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupFormMainCliDetalle">
+	<summary>
+Control PopupFormMainCliDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupControlContentControl4">
+	<summary>
+Control PopupControlContentControl4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.FormLayoutPopupDetalle">
+	<summary>
+Control FormLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iCodOcupacion">
+	<summary>
+Control iCodOcupacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iGradoInstruccion">
+	<summary>
+Control iGradoInstruccion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iCantidad">
+	<summary>
+Control iCantidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iTiempoExpRequerida">
+	<summary>
+Control iTiempoExpRequerida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.cDesPerfil">
+	<summary>
+Control cDesPerfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iBandaSalarialMin">
+	<summary>
+Control iBandaSalarialMin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iBandaSalarialMax">
+	<summary>
+Control iBandaSalarialMax.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iEdadMinimaRequerida">
+	<summary>
+Control iEdadMinimaRequerida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.iEdadMaximaRequerida">
+	<summary>
+Control iEdadMaximaRequerida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.cGenero">
+	<summary>
+Control cGenero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnCancelarDetalle">
+	<summary>
+Control BtnCancelarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupControlContentControl5">
+	<summary>
+Control PopupControlContentControl5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupConfirmDelete">
+	<summary>
+Control PopupConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupControlContentControl3">
+	<summary>
+Control PopupControlContentControl3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.FormLayoutConfirmDelete">
+	<summary>
+Control FormLayoutConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.LblDeleteConfirm">
+	<summary>
+Control LblDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnDeleteConfirm">
+	<summary>
+Control BtnDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnDeleteCancel">
+	<summary>
+Control BtnDeleteCancel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupConfirmarEnvio">
+	<summary>
+Control PopupConfirmarEnvio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupControlContentControl6">
+	<summary>
+Control PopupControlContentControl6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.ASPxFormLayout2">
+	<summary>
+Control ASPxFormLayout2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.ASPxLabel3">
+	<summary>
+Control ASPxLabel3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnGuardarEnviar">
+	<summary>
+Control BtnGuardarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnCancelarEnviar">
+	<summary>
+Control BtnCancelarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupConfirmDeleteDetalle">
+	<summary>
+Control PopupConfirmDeleteDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupControlContentControl7">
+	<summary>
+Control PopupControlContentControl7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.FormConfirmLayoutPopupDetalle">
+	<summary>
+Control FormConfirmLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.ASPxLabel1">
+	<summary>
+Control ASPxLabel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnDeleteConfirmDetalle">
+	<summary>
+Control BtnDeleteConfirmDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnDeleteCancelDetalle">
+	<summary>
+Control BtnDeleteCancelDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupConfirmarAprobacion">
+	<summary>
+Control PopupConfirmarAprobacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupControlContentControl8">
+	<summary>
+Control PopupControlContentControl8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.ASPxFormLayout1">
+	<summary>
+Control ASPxFormLayout1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.ASPxLabel2">
+	<summary>
+Control ASPxLabel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnGuardarAprobacion">
+	<summary>
+Control BtnGuardarAprobacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnCancelarAprobacion">
+	<summary>
+Control BtnCancelarAprobacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupConfirmarDesaprobacion">
+	<summary>
+Control PopupConfirmarDesaprobacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.PopupControlContentControl9">
+	<summary>
+Control PopupControlContentControl9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.ASPxFormLayout3">
+	<summary>
+Control ASPxFormLayout3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.ASPxLabel4">
+	<summary>
+Control ASPxLabel4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnGuardarDesaprobacion">
+	<summary>
+Control BtnGuardarDesaprobacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmAprobacionCliente.BtnCancelarDesaprobacion">
+	<summary>
+Control BtnCancelarDesaprobacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupFormMain">
+	<summary>
+Control PopupFormMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupControlContentControl1">
+	<summary>
+Control PopupControlContentControl1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.FormLayoutPopup">
+	<summary>
+Control FormLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iCodSubContrata">
+	<summary>
+Control iCodSubContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iCodContratistaContrato">
+	<summary>
+Control iCodContratistaContrato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.dFechaIni">
+	<summary>
+Control dFechaIni.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.dFechaFin">
+	<summary>
+Control dFechaFin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.cSolicitante">
+	<summary>
+Control cSolicitante.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.cObs">
+	<summary>
+Control cObs.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnConfirmarEnviar">
+	<summary>
+Control BtnConfirmarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnImprimirFormatoConvocatoria">
+	<summary>
+Control BtnImprimirFormatoConvocatoria.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnCancelar">
+	<summary>
+Control BtnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.CallBackFunctionDetalle">
+	<summary>
+Control CallBackFunctionDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iCodRegistroDetalle">
+	<summary>
+Control iCodRegistroDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.TablaRegistrosDetalle">
+	<summary>
+Control TablaRegistrosDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupControlContentControl2">
+	<summary>
+Control PopupControlContentControl2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupFormMainCliDetalle">
+	<summary>
+Control PopupFormMainCliDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupControlContentControl4">
+	<summary>
+Control PopupControlContentControl4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.FormLayoutPopupDetalle">
+	<summary>
+Control FormLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iCodOcupacion">
+	<summary>
+Control iCodOcupacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iGradoInstruccion">
+	<summary>
+Control iGradoInstruccion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iCantidad">
+	<summary>
+Control iCantidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iTiempoExpRequerida">
+	<summary>
+Control iTiempoExpRequerida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.cDesPerfil">
+	<summary>
+Control cDesPerfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iBandaSalarialMin">
+	<summary>
+Control iBandaSalarialMin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iBandaSalarialMax">
+	<summary>
+Control iBandaSalarialMax.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iEdadMinimaRequerida">
+	<summary>
+Control iEdadMinimaRequerida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.iEdadMaximaRequerida">
+	<summary>
+Control iEdadMaximaRequerida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.cGenero">
+	<summary>
+Control cGenero.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnGuardarDetalle">
+	<summary>
+Control BtnGuardarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnCancelarDetalle">
+	<summary>
+Control BtnCancelarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupControlContentControl5">
+	<summary>
+Control PopupControlContentControl5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupConfirmDelete">
+	<summary>
+Control PopupConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupControlContentControl3">
+	<summary>
+Control PopupControlContentControl3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.FormLayoutConfirmDelete">
+	<summary>
+Control FormLayoutConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.LblDeleteConfirm">
+	<summary>
+Control LblDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnDeleteConfirm">
+	<summary>
+Control BtnDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnDeleteCancel">
+	<summary>
+Control BtnDeleteCancel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupConfirmarEnvio">
+	<summary>
+Control PopupConfirmarEnvio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupControlContentControl6">
+	<summary>
+Control PopupControlContentControl6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.ASPxFormLayout2">
+	<summary>
+Control ASPxFormLayout2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.ASPxLabel3">
+	<summary>
+Control ASPxLabel3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnGuardarEnviar">
+	<summary>
+Control BtnGuardarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnCancelarEnviar">
+	<summary>
+Control BtnCancelarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupConfirmDeleteDetalle">
+	<summary>
+Control PopupConfirmDeleteDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupControlContentControl7">
+	<summary>
+Control PopupControlContentControl7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.FormConfirmLayoutPopupDetalle">
+	<summary>
+Control FormConfirmLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.ASPxLabel1">
+	<summary>
+Control ASPxLabel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnDeleteConfirmDetalle">
+	<summary>
+Control BtnDeleteConfirmDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnDeleteCancelDetalle">
+	<summary>
+Control BtnDeleteCancelDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupConfirmAnulacion">
+	<summary>
+Control PopupConfirmAnulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupControlContentControl8">
+	<summary>
+Control PopupControlContentControl8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.FormConfirmAnulacionLayoutPopup">
+	<summary>
+Control FormConfirmAnulacionLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.ASPxLabel2">
+	<summary>
+Control ASPxLabel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnDeleteConfirmAnulacion">
+	<summary>
+Control BtnDeleteConfirmAnulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.BtnDeleteCancelAnulacion">
+	<summary>
+Control BtnDeleteCancelAnulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupFormReportes">
+	<summary>
+Control PopupFormReportes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PopupControlContentControl9">
+	<summary>
+Control PopupControlContentControl9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.CallBackPanelReport">
+	<summary>
+Control CallBackPanelReport.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.PanelContent1">
+	<summary>
+Control PanelContent1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmConvocatoria.WebReportViewer">
+	<summary>
+Control WebReportViewer.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.PageError.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupFormMain">
+	<summary>
+Control PopupFormMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.FormLayoutPopup">
+	<summary>
+Control FormLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.BtnCancelar">
+	<summary>
+Control BtnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupConfirmDelete">
+	<summary>
+Control PopupConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.FormLayoutConfirmDelete">
+	<summary>
+Control FormLayoutConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.LblDeleteConfirm">
+	<summary>
+Control LblDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.BtnDeleteConfirm">
+	<summary>
+Control BtnDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.BtnDeleteCancel">
+	<summary>
+Control BtnDeleteCancel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupFormFeedbackDetalle">
+	<summary>
+Control PopupFormFeedbackDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupControlContentControl1">
+	<summary>
+Control PopupControlContentControl1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.CallBackFunctionDetalleFeedback">
+	<summary>
+Control CallBackFunctionDetalleFeedback.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.iCodRegistroDetalle">
+	<summary>
+Control iCodRegistroDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.iCodCandidatoInforme">
+	<summary>
+Control iCodCandidatoInforme.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.TablaRegistrosDetalle">
+	<summary>
+Control TablaRegistrosDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupFormMainCliDetalle">
+	<summary>
+Control PopupFormMainCliDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupControlContentControl2">
+	<summary>
+Control PopupControlContentControl2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.FormLayoutPopupDetalle">
+	<summary>
+Control FormLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cNomCompleto">
+	<summary>
+Control cNomCompleto.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cPerfil">
+	<summary>
+Control cPerfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cTipoPostulacion">
+	<summary>
+Control cTipoPostulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.dFechaCargaCV">
+	<summary>
+Control dFechaCargaCV.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cFono">
+	<summary>
+Control cFono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.iEdad">
+	<summary>
+Control iEdad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cCorreo">
+	<summary>
+Control cCorreo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cOcupacionPrincipal">
+	<summary>
+Control cOcupacionPrincipal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.iTiempoOcupacionPrincipal">
+	<summary>
+Control iTiempoOcupacionPrincipal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cOcupacionAlterna">
+	<summary>
+Control cOcupacionAlterna.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.iTiempoOcupacionAlterna">
+	<summary>
+Control iTiempoOcupacionAlterna.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cSeleccionado">
+	<summary>
+Control cSeleccionado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cRptaContrata">
+	<summary>
+Control cRptaContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cObs">
+	<summary>
+Control cObs.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.BtnGuardarDetalle">
+	<summary>
+Control BtnGuardarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.BtnCancelarDetalle">
+	<summary>
+Control BtnCancelarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupControlContentControl3">
+	<summary>
+Control PopupControlContentControl3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupFormReportes">
+	<summary>
+Control PopupFormReportes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupControlContentControl7">
+	<summary>
+Control PopupControlContentControl7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.CallBackPanelReport">
+	<summary>
+Control CallBackPanelReport.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PanelContent1">
+	<summary>
+Control PanelContent1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.WebReportViewer">
+	<summary>
+Control WebReportViewer.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupFeedbackMasivoNoCumple">
+	<summary>
+Control PopupFeedbackMasivoNoCumple.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupControlContentControl4">
+	<summary>
+Control PopupControlContentControl4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.LayoutPopupFeedbackMasivoNoCumple">
+	<summary>
+Control LayoutPopupFeedbackMasivoNoCumple.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.ASPxLabel1">
+	<summary>
+Control ASPxLabel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.BtnFeedbackMasivoNoCumple">
+	<summary>
+Control BtnFeedbackMasivoNoCumple.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.BtnFeedbackMasivoNoCumpleCancelar">
+	<summary>
+Control BtnFeedbackMasivoNoCumpleCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupFormFeedbackMasivo">
+	<summary>
+Control PopupFormFeedbackMasivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.PopupControlContentControl8">
+	<summary>
+Control PopupControlContentControl8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.FormLayoutPopupFeedbackMasivo">
+	<summary>
+Control FormLayoutPopupFeedbackMasivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.iCodOcupacionMasivo">
+	<summary>
+Control iCodOcupacionMasivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.cRptaContrataMasivo">
+	<summary>
+Control cRptaContrataMasivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.BtnGuardarFeedbackMasivo">
+	<summary>
+Control BtnGuardarFeedbackMasivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFeedBack.BtnCerrarFormFeedbackMasivo">
+	<summary>
+Control BtnCerrarFormFeedbackMasivo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL._Default.PopupMensajeOAEL">
+	<summary>
+Control PopupMensajeOAEL.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL._Default.PopupControlContentControl5">
+	<summary>
+Control PopupControlContentControl5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL._Default.LayoutMensajeOAEL">
+	<summary>
+Control LayoutMensajeOAEL.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL._Default.BtnCerrarMensaje">
+	<summary>
+Control BtnCerrarMensaje.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupFormMain">
+	<summary>
+Control PopupFormMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.FormLayoutPopup">
+	<summary>
+Control FormLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.iCodContratistaContrato">
+	<summary>
+Control iCodContratistaContrato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.iPeriodo">
+	<summary>
+Control iPeriodo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.iMes">
+	<summary>
+Control iMes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnCancelar">
+	<summary>
+Control BtnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupConfirmDelete">
+	<summary>
+Control PopupConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.FormLayoutConfirmDelete">
+	<summary>
+Control FormLayoutConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.LblDeleteConfirm">
+	<summary>
+Control LblDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnDeleteConfirm">
+	<summary>
+Control BtnDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnDeleteCancel">
+	<summary>
+Control BtnDeleteCancel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupFormFFLLDetalle">
+	<summary>
+Control PopupFormFFLLDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentControl1">
+	<summary>
+Control PopupControlContentControl1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.CallBackFunctionDetalle">
+	<summary>
+Control CallBackFunctionDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.iCodRegistroDetalle">
+	<summary>
+Control iCodRegistroDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.TablaRegistrosDetalle">
+	<summary>
+Control TablaRegistrosDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupFormMainCliDetalle">
+	<summary>
+Control PopupFormMainCliDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentControl2">
+	<summary>
+Control PopupControlContentControl2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.FormLayoutPopupDetalle">
+	<summary>
+Control FormLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.iCodCandidatoInforme">
+	<summary>
+Control iCodCandidatoInforme.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cDNI">
+	<summary>
+Control cDNI.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cTipoDoc">
+	<summary>
+Control cTipoDoc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cApellidos">
+	<summary>
+Control cApellidos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cNombres">
+	<summary>
+Control cNombres.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cSexo">
+	<summary>
+Control cSexo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cUbigeo">
+	<summary>
+Control cUbigeo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cCondicion">
+	<summary>
+Control cCondicion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cPaisNacimiento">
+	<summary>
+Control cPaisNacimiento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.dFechaIni">
+	<summary>
+Control dFechaIni.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cTipoCargo">
+	<summary>
+Control cTipoCargo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cOcupacion">
+	<summary>
+Control cOcupacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cMOCMONC">
+	<summary>
+Control cMOCMONC.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cRegimenLaboral">
+	<summary>
+Control cRegimenLaboral.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cTipoContrato">
+	<summary>
+Control cTipoContrato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cTurno">
+	<summary>
+Control cTurno.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cRotacion">
+	<summary>
+Control cRotacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cAreaTrabajo">
+	<summary>
+Control cAreaTrabajo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cLugarPernocte">
+	<summary>
+Control cLugarPernocte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.iCodSubContrata">
+	<summary>
+Control iCodSubContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.iHorasHombre">
+	<summary>
+Control iHorasHombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cSituacionLaboral">
+	<summary>
+Control cSituacionLaboral.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnGuardarDetalle">
+	<summary>
+Control BtnGuardarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnCancelarDetalle">
+	<summary>
+Control BtnCancelarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentControl3">
+	<summary>
+Control PopupControlContentControl3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupConfirmDeleteDetalle">
+	<summary>
+Control PopupConfirmDeleteDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentControl4">
+	<summary>
+Control PopupControlContentControl4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.FormConfirmLayoutPopupDetalle">
+	<summary>
+Control FormConfirmLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.ASPxLabel1">
+	<summary>
+Control ASPxLabel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnDeleteConfirmDetalle">
+	<summary>
+Control BtnDeleteConfirmDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnDeleteCancelDetalle">
+	<summary>
+Control BtnDeleteCancelDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupFormCese">
+	<summary>
+Control PopupFormCese.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentControl5">
+	<summary>
+Control PopupControlContentControl5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.FormLayoutPopupCese">
+	<summary>
+Control FormLayoutPopupCese.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.dFechaCese">
+	<summary>
+Control dFechaCese.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.cMotivoCese">
+	<summary>
+Control cMotivoCese.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.iCalificacion">
+	<summary>
+Control iCalificacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.bDevolvioFotocheck">
+	<summary>
+Control bDevolvioFotocheck.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnCeseGuardar">
+	<summary>
+Control BtnCeseGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnCeseCerrar">
+	<summary>
+Control BtnCeseCerrar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentControl6">
+	<summary>
+Control PopupControlContentControl6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupFormReportesConfig">
+	<summary>
+Control PopupFormReportesConfig.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentControl8">
+	<summary>
+Control PopupControlContentControl8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.FormLayoutPopupReportesConfig">
+	<summary>
+Control FormLayoutPopupReportesConfig.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.iTipoReporte">
+	<summary>
+Control iTipoReporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.dFechaIniReport">
+	<summary>
+Control dFechaIniReport.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.dFechaFinReport">
+	<summary>
+Control dFechaFinReport.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.bCesadosIncluir">
+	<summary>
+Control bCesadosIncluir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnVerReporte">
+	<summary>
+Control BtnVerReporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnCerrarReporteConfig">
+	<summary>
+Control BtnCerrarReporteConfig.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupConfirmarCierreFFLL">
+	<summary>
+Control PopupConfirmarCierreFFLL.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentControl9">
+	<summary>
+Control PopupControlContentControl9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.FrmLayoutConfirmarCierreFFLL">
+	<summary>
+Control FrmLayoutConfirmarCierreFFLL.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.ASPxLabel3">
+	<summary>
+Control ASPxLabel3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnConfirmarCerrarPeriodo">
+	<summary>
+Control BtnConfirmarCerrarPeriodo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.BtnCancelarCerrarPeriodo">
+	<summary>
+Control BtnCancelarCerrarPeriodo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupFormReportes">
+	<summary>
+Control PopupFormReportes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentControl7">
+	<summary>
+Control PopupControlContentControl7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.CallBackPanelReport">
+	<summary>
+Control CallBackPanelReport.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PanelContent1">
+	<summary>
+Control PanelContent1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.WebReportViewer">
+	<summary>
+Control WebReportViewer.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupFormDashboard">
+	<summary>
+Control PopupFormDashboard.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PopupControlContentControl10">
+	<summary>
+Control PopupControlContentControl10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.CallBackPanelDashboard">
+	<summary>
+Control CallBackPanelDashboard.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.PanelContentDashboard">
+	<summary>
+Control PanelContentDashboard.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmFuerzaLaboral.ASPxDashboard1">
+	<summary>
+Control ASPxDashboard1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptFuerzaLaboral.iTipoReporte">
+	<summary>
+Control iTipoReporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptFuerzaLaboral.iCodContrata">
+	<summary>
+Control iCodContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptFuerzaLaboral.iPeriodo">
+	<summary>
+Control iPeriodo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptFuerzaLaboral.iMes">
+	<summary>
+Control iMes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptFuerzaLaboral.BtnGenerarReporte">
+	<summary>
+Control BtnGenerarReporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptFuerzaLaboral.CallBackPanelReport">
+	<summary>
+Control CallBackPanelReport.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptFuerzaLaboral.PanelContent1">
+	<summary>
+Control PanelContent1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRptFuerzaLaboral.WebReportViewer">
+	<summary>
+Control WebReportViewer.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupFormMain">
+	<summary>
+Control PopupFormMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl1">
+	<summary>
+Control PopupControlContentControl1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.FormLayoutPopup">
+	<summary>
+Control FormLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.iCodSubContrata">
+	<summary>
+Control iCodSubContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.iCodContratistaContrato">
+	<summary>
+Control iCodContratistaContrato.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.iCodTipoMoneda">
+	<summary>
+Control iCodTipoMoneda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cSolicitante">
+	<summary>
+Control cSolicitante.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cAlcanceRequerimiento">
+	<summary>
+Control cAlcanceRequerimiento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cTerminosPago">
+	<summary>
+Control cTerminosPago.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cObs">
+	<summary>
+Control cObs.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnConfirmarEnviar">
+	<summary>
+Control BtnConfirmarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnImprimirFormatoRequerimiento">
+	<summary>
+Control BtnImprimirFormatoRequerimiento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnCancelar">
+	<summary>
+Control BtnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.CallBackFunctionDetalle">
+	<summary>
+Control CallBackFunctionDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.iCodRegistroDetalle">
+	<summary>
+Control iCodRegistroDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.TablaRegistrosDetalle">
+	<summary>
+Control TablaRegistrosDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl2">
+	<summary>
+Control PopupControlContentControl2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupFormMainCliDetalle">
+	<summary>
+Control PopupFormMainCliDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl4">
+	<summary>
+Control PopupControlContentControl4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.FormLayoutPopupDetalle">
+	<summary>
+Control FormLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cDescripcionBienServicio">
+	<summary>
+Control cDescripcionBienServicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cDetalleRequerimiento">
+	<summary>
+Control cDetalleRequerimiento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.nCantidad">
+	<summary>
+Control nCantidad.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.iCodTipoMedida">
+	<summary>
+Control iCodTipoMedida.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.nPrecioUnit">
+	<summary>
+Control nPrecioUnit.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.nSubTotal">
+	<summary>
+Control nSubTotal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.nTiempoDuracion">
+	<summary>
+Control nTiempoDuracion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cOtrosRequisitos">
+	<summary>
+Control cOtrosRequisitos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnGuardarDetalle">
+	<summary>
+Control BtnGuardarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnCancelarDetalle">
+	<summary>
+Control BtnCancelarDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl5">
+	<summary>
+Control PopupControlContentControl5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupConfirmDelete">
+	<summary>
+Control PopupConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl3">
+	<summary>
+Control PopupControlContentControl3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.FormLayoutConfirmDelete">
+	<summary>
+Control FormLayoutConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.LblDeleteConfirm">
+	<summary>
+Control LblDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnDeleteConfirm">
+	<summary>
+Control BtnDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnDeleteCancel">
+	<summary>
+Control BtnDeleteCancel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupConfirmarEnvio">
+	<summary>
+Control PopupConfirmarEnvio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl6">
+	<summary>
+Control PopupControlContentControl6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.ASPxFormLayout2">
+	<summary>
+Control ASPxFormLayout2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.ASPxLabel3">
+	<summary>
+Control ASPxLabel3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnGuardarEnviar">
+	<summary>
+Control BtnGuardarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnCancelarEnviar">
+	<summary>
+Control BtnCancelarEnviar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupConfirmDeleteDetalle">
+	<summary>
+Control PopupConfirmDeleteDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl7">
+	<summary>
+Control PopupControlContentControl7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.FormConfirmLayoutPopupDetalle">
+	<summary>
+Control FormConfirmLayoutPopupDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.ASPxLabel1">
+	<summary>
+Control ASPxLabel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnDeleteConfirmDetalle">
+	<summary>
+Control BtnDeleteConfirmDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnDeleteCancelDetalle">
+	<summary>
+Control BtnDeleteCancelDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupConfirmAnulacion">
+	<summary>
+Control PopupConfirmAnulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl8">
+	<summary>
+Control PopupControlContentControl8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.FormConfirmAnulacionLayoutPopup">
+	<summary>
+Control FormConfirmAnulacionLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.ASPxLabel2">
+	<summary>
+Control ASPxLabel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnDeleteConfirmAnulacion">
+	<summary>
+Control BtnDeleteConfirmAnulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnDeleteCancelAnulacion">
+	<summary>
+Control BtnDeleteCancelAnulacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupFormAdjudicacion">
+	<summary>
+Control PopupFormAdjudicacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl10">
+	<summary>
+Control PopupControlContentControl10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.FormLayoutAdjudicacion">
+	<summary>
+Control FormLayoutAdjudicacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.CallBackFunctionCotizacionPostor">
+	<summary>
+Control CallBackFunctionCotizacionPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.iCodRegistroCotizacionPostor">
+	<summary>
+Control iCodRegistroCotizacionPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.TablaRegistrosCotizacionPostor">
+	<summary>
+Control TablaRegistrosCotizacionPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.CallBackFunctionCotizacionDetallePostor">
+	<summary>
+Control CallBackFunctionCotizacionDetallePostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.iCodRegistroCotizacionDetallePostor">
+	<summary>
+Control iCodRegistroCotizacionDetallePostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.TablaRegistrosCotizacionDetallePostor">
+	<summary>
+Control TablaRegistrosCotizacionDetallePostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupFormAdjudicarPostor">
+	<summary>
+Control PopupFormAdjudicarPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl11">
+	<summary>
+Control PopupControlContentControl11.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.FormLayoutAdjudicarPostor">
+	<summary>
+Control FormLayoutAdjudicarPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cNomContrataAdjudicada">
+	<summary>
+Control cNomContrataAdjudicada.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cNotasAdjudica">
+	<summary>
+Control cNotasAdjudica.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.nTotal">
+	<summary>
+Control nTotal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnGuardarAdjudicarPostor">
+	<summary>
+Control BtnGuardarAdjudicarPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnCancelAdjudicarPostor">
+	<summary>
+Control BtnCancelAdjudicarPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupFormFeedbackPostor">
+	<summary>
+Control PopupFormFeedbackPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl13">
+	<summary>
+Control PopupControlContentControl13.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.FormLayoutFeedbackPostor">
+	<summary>
+Control FormLayoutFeedbackPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cNomContrataFeedback">
+	<summary>
+Control cNomContrataFeedback.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cFeedbackContrata">
+	<summary>
+Control cFeedbackContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.cFeedbackContrataDetalle">
+	<summary>
+Control cFeedbackContrataDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnGuardarFeedbackPostor">
+	<summary>
+Control BtnGuardarFeedbackPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.BtnCancelFeedbackPostor">
+	<summary>
+Control BtnCancelFeedbackPostor.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupFormReportes">
+	<summary>
+Control PopupFormReportes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PopupControlContentControl9">
+	<summary>
+Control PopupControlContentControl9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.CallBackPanelReport">
+	<summary>
+Control CallBackPanelReport.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.PanelContent1">
+	<summary>
+Control PanelContent1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmRequerimiento.WebReportViewer">
+	<summary>
+Control WebReportViewer.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.CallBackFunction">
+	<summary>
+Control CallBackFunction.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.iCodRegistro">
+	<summary>
+Control iCodRegistro.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.cFormMetadata">
+	<summary>
+Control cFormMetadata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.PopupFormMain">
+	<summary>
+Control PopupFormMain.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.FormLayoutPopup">
+	<summary>
+Control FormLayoutPopup.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.iCodPersona">
+	<summary>
+Control iCodPersona.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.iCodUsuario">
+	<summary>
+Control iCodUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.cNroDoc">
+	<summary>
+Control cNroDoc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.cSexo">
+	<summary>
+Control cSexo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.cApelP">
+	<summary>
+Control cApelP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.cNombres">
+	<summary>
+Control cNombres.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.cFono">
+	<summary>
+Control cFono.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.cCorreo">
+	<summary>
+Control cCorreo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.iCodContrata">
+	<summary>
+Control iCodContrata.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.cTipo">
+	<summary>
+Control cTipo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.bAcceder">
+	<summary>
+Control bAcceder.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.BtnGuardar">
+	<summary>
+Control BtnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.BtnCancelar">
+	<summary>
+Control BtnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.PopupConfirmDelete">
+	<summary>
+Control PopupConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.FormLayoutConfirmDelete">
+	<summary>
+Control FormLayoutConfirmDelete.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.LblDeleteConfirm">
+	<summary>
+Control LblDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.BtnDeleteConfirm">
+	<summary>
+Control BtnDeleteConfirm.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.BtnDeleteCancel">
+	<summary>
+Control BtnDeleteCancel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.PopupAlertMessage">
+	<summary>
+Control PopupAlertMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmUsuarioContrata.PopupControlContentAlert">
+	<summary>
+Control PopupControlContentAlert.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmReporteCliente.iCodReporteCatalogo">
+	<summary>
+Control iCodReporteCatalogo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmReporteCliente.dFechaInicio">
+	<summary>
+Control dFechaInicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmReporteCliente.dFechaFin">
+	<summary>
+Control dFechaFin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmReporteCliente.BtnVerReporte">
+	<summary>
+Control BtnVerReporte.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GTWebOAEL.FrmReporteCliente.TablaRegistros">
+	<summary>
+Control TablaRegistros.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

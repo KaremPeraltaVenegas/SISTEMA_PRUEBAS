@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{370EBC3A-BD19-49A3-B377-621DBD56AF4E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>GTWebOAEL</RootNamespace>
+    <AssemblyName>GTWebOAEL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>GTWebOAEL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>GTWebOAEL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AntiXssLibrary">
+      <HintPath>..\packages\AntiXssLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v17.2.Web, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Map.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.SpellChecker.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.Bootstrap.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.Resources.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.2.Presets, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.2.Win, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraMap.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.2.Web, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlSanitizationLibrary">
+      <HintPath>..\packages\HtmlSanitizationLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Frameworks">
+      <HintPath>..\packages\NuGet.Frameworks.3.3.0\lib\net45\NuGet.Frameworks.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Logging">
+      <HintPath>..\packages\NuGet.Logging.3.3.0\lib\net45\NuGet.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxThemes.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.2.Export, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PageError.aspx.designer.vb">
+      <DependentUpon>PageError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageError.aspx.vb">
+      <DependentUpon>PageError.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Light.master.designer.vb">
+      <DependentUpon>Light.master</DependentUpon>
+    </Compile>
+    <Compile Include="Light.master.vb">
+      <DependentUpon>Light.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Main.master.designer.vb">
+      <DependentUpon>Main.master</DependentUpon>
+    </Compile>
+    <Compile Include="Main.master.vb">
+      <DependentUpon>Main.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Root.master.designer.vb">
+      <DependentUpon>Root.master</DependentUpon>
+    </Compile>
+    <Compile Include="Root.master.vb">
+      <DependentUpon>Root.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Startup.vb" />
+    <Compile Include="_Forms\UcwCandidatoEstudio.ascx.designer.vb">
+      <DependentUpon>UcwCandidatoEstudio.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_Forms\UcwCandidatoEstudio.ascx.vb">
+      <DependentUpon>UcwCandidatoEstudio.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Forms\UcwCandidatoinforme.ascx.designer.vb">
+      <DependentUpon>UcwCandidatoinforme.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_Forms\UcwCandidatoinforme.ascx.vb">
+      <DependentUpon>UcwCandidatoinforme.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_GTController\WebServCandidatoinforme.asmx.vb">
+      <DependentUpon>WebServCandidatoinforme.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_GraphService\StartupAuth.vb" />
+    <Compile Include="CustomRoleProvider.vb" />
+    <Compile Include="_Model\Empresa.vb" />
+    <Compile Include="_Model\Perfilpuesto.vb" />
+    <Compile Include="_Model\Persona.vb" />
+    <Compile Include="_Model\Personanatural.vb" />
+    <Compile Include="_Model\Seguridadclavehistorial.vb" />
+    <Compile Include="_Model\Seguridadmfa.vb" />
+    <Compile Include="_Model\Seguridadusuariohistorial.vb" />
+    <Compile Include="_Model\Uconfig.vb" />
+    <Compile Include="_Model\Uconfig2.vb" />
+    <Compile Include="_Model\Usuariopermiso.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Catalogobienesservicios.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Categoriabienesservicios.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Requerimiento.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Requerimientocotizacion.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Requerimientocotizaciondetalle.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Requerimientodetalle.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Rubrobienesservicios.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Tipoestadorequerimiento.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Tipomedida.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Tipomediopago.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Tipomoneda.vb" />
+    <Compile Include="_Model\_ManpowerProvee\Tiporequerimiento.vb" />
+    <Compile Include="_Model\_Manpower\Anexoadmision.vb" />
+    <Compile Include="_Model\_Manpower\Anexoadmisiondetalle.vb" />
+    <Compile Include="_Model\_Manpower\Anexoadmisiontipo.vb" />
+    <Compile Include="_Model\_Manpower\Candidatoadmision.vb" />
+    <Compile Include="_Model\_Manpower\Candidatoadmisioncatalogo.vb" />
+    <Compile Include="_Model\_Manpower\Candidatoestudios.vb" />
+    <Compile Include="_Model\_Manpower\Candidatoexperiencialaboral.vb" />
+    <Compile Include="_Model\_Manpower\Candidatoinforme.vb" />
+    <Compile Include="_Model\_Manpower\Contrata.vb" />
+    <Compile Include="_Model\_Manpower\Contratistacontrato.vb" />
+    <Compile Include="_Model\_Manpower\Convocatoria.vb" />
+    <Compile Include="_Model\_Manpower\Convocatoriadetalle.vb" />
+    <Compile Include="_Model\_Manpower\Convocatoriamain.vb" />
+    <Compile Include="_Model\_Manpower\Correoenvio.vb" />
+    <Compile Include="_Model\_Manpower\Fuerzalaboral.vb" />
+    <Compile Include="_Model\_Manpower\Fuerzalaboraldetalle.vb" />
+    <Compile Include="_Model\_Manpower\Reportecatalogo.vb" />
+    <Compile Include="_Model\_Manpower\Tdcatalogo.vb" />
+    <Compile Include="_Model\_Manpower\Tdcondicionsustento.vb" />
+    <Compile Include="_Model\_Manpower\Tdocupacion.vb" />
+    <Compile Include="_Model\Usuario.vb" />
+    <Compile Include="_Model\_Manpower\Usuariocontrata.vb" />
+    <Compile Include="_Model\_Manpower\Usuarioreportecatalogo.vb" />
+    <Compile Include="_Report\DashboardFFLL.Designer.vb">
+      <DependentUpon>DashboardFFLL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\DashboardFFLL.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\DashboardFFLLCustom.aspx.designer.vb">
+      <DependentUpon>DashboardFFLLCustom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\DashboardFFLLCustom.aspx.vb">
+      <DependentUpon>DashboardFFLLCustom.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="_Report\DashboardFFLLIngresoCese.Designer.vb">
+      <DependentUpon>DashboardFFLLIngresoCese.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\DashboardFFLLIngresoCese.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\DashboardFFLLSemana.designer.vb">
+      <DependentUpon>DashboardFFLLSemana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\DashboardFFLLSemana.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\DashboardPGI.designer.vb">
+      <DependentUpon>DashboardPGI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\DashboardPGI.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\DashboardPGIAnexoAdmisionResumen.designer.vb">
+      <DependentUpon>DashboardPGIAnexoAdmisionResumen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\DashboardPGIAnexoAdmisionResumen.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\FrmReporteCliente.aspx.designer.vb">
+      <DependentUpon>FrmReporteCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\FrmReporteCliente.aspx.vb">
+      <DependentUpon>FrmReporteCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Report\FrmRptAnexoAdmision.aspx.designer.vb">
+      <DependentUpon>FrmRptAnexoAdmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\FrmRptAnexoAdmision.aspx.vb">
+      <DependentUpon>FrmRptAnexoAdmision.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="_Report\FrmRptDashboardViewer.aspx.designer.vb">
+      <DependentUpon>FrmRptDashboardViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\FrmRptDashboardViewer.aspx.vb">
+      <DependentUpon>FrmRptDashboardViewer.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="_Report\FrmRptFuerzaLaboral.aspx.designer.vb">
+      <DependentUpon>FrmRptFuerzaLaboral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\FrmRptFuerzaLaboral.aspx.vb">
+      <DependentUpon>FrmRptFuerzaLaboral.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="_Report\FrmRptViewer.aspx.designer.vb">
+      <DependentUpon>FrmRptViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\FrmRptViewer.aspx.vb">
+      <DependentUpon>FrmRptViewer.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="_Report\RptCandidatoFichaPostulante.designer.vb">
+      <DependentUpon>RptCandidatoFichaPostulante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptCandidatoFichaPostulante.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\RptFeedBackByConvocatoria.designer.vb">
+      <DependentUpon>RptFeedBackByConvocatoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptFeedBackByConvocatoria.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\RptFormatoA5.Designer.vb">
+      <DependentUpon>RptFormatoA5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptFormatoA5.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\RptFormatoConvocatoria.Designer.vb">
+      <DependentUpon>RptFormatoConvocatoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptFormatoConvocatoria.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\RptFormatoPGI.Designer.vb">
+      <DependentUpon>RptFormatoPGI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptFormatoPGI.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralFFLL.Designer.vb">
+      <DependentUpon>RptFuerzaLaboralFFLL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralFFLL.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralFFLLCompleto.Designer.vb">
+      <DependentUpon>RptFuerzaLaboralFFLLCompleto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralFFLLCompleto.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralHHCC.Designer.vb">
+      <DependentUpon>RptFuerzaLaboralHHCC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralHHCC.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralHHCCByPeriodo.Designer.vb">
+      <DependentUpon>RptFuerzaLaboralHHCCByPeriodo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralHHCCByPeriodo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralHHCCMes.Designer.vb">
+      <DependentUpon>RptFuerzaLaboralHHCCMes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralHHCCMes.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralHHCCSetting.Designer.vb">
+      <DependentUpon>RptFuerzaLaboralHHCCSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="_Report\RptFuerzaLaboralHHCCSetting.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="_ToolApp\cMailing.vb" />
+    <Compile Include="_ToolApp\ConnectSQL.vb" />
+    <Compile Include="_ToolApp\ConnectSQLParam.vb" />
+    <Compile Include="_ToolApp\FechaDiferencia.vb" />
+    <Compile Include="_ToolApp\ParametrosGlobales.vb" />
+    <Compile Include="_ToolApp\TareasComunes.vb" />
+    <Compile Include="_ToolApp\_AppConfig.vb" />
+    <Compile Include="_ToolApp\_Encripta.vb" />
+    <Compile Include="_Views\FrmContrato.aspx.designer.vb">
+      <DependentUpon>FrmContrato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Views\FrmContrato.aspx.vb">
+      <DependentUpon>FrmContrato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Views\FrmAnexoAdmision.aspx.designer.vb">
+      <DependentUpon>FrmAnexoAdmision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Views\FrmAnexoAdmision.aspx.vb">
+      <DependentUpon>FrmAnexoAdmision.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="_Views\FrmMesaPartes.aspx.designer.vb">
+      <DependentUpon>FrmMesaPartes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Views\FrmMesaPartes.aspx.vb">
+      <DependentUpon>FrmMesaPartes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Views\FrmPostulante.aspx.designer.vb">
+      <DependentUpon>FrmPostulante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Views\FrmPostulante.aspx.vb">
+      <DependentUpon>FrmPostulante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Views\FrmUsuarioContrata.aspx.designer.vb">
+      <DependentUpon>FrmUsuarioContrata.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Views\FrmUsuarioContrata.aspx.vb">
+      <DependentUpon>FrmUsuarioContrata.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\DashboardFFLL.resx">
+      <DependentUpon>DashboardFFLL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\DashboardFFLLIngresoCese.resx">
+      <DependentUpon>DashboardFFLLIngresoCese.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\DashboardFFLLSemana.resx">
+      <DependentUpon>DashboardFFLLSemana.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\DashboardPGI.resx">
+      <DependentUpon>DashboardPGI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\DashboardPGIAnexoAdmisionResumen.resx">
+      <DependentUpon>DashboardPGIAnexoAdmisionResumen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptCandidatoFichaPostulante.resx">
+      <DependentUpon>RptCandidatoFichaPostulante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptFeedBackByConvocatoria.resx">
+      <DependentUpon>RptFeedBackByConvocatoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptFormatoA5.resx">
+      <DependentUpon>RptFormatoA5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptFormatoConvocatoria.resx">
+      <DependentUpon>RptFormatoConvocatoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptFormatoPGI.resx">
+      <DependentUpon>RptFormatoPGI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptFuerzaLaboralFFLL.resx">
+      <DependentUpon>RptFuerzaLaboralFFLL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptFuerzaLaboralFFLLCompleto.resx">
+      <DependentUpon>RptFuerzaLaboralFFLLCompleto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptFuerzaLaboralHHCC.resx">
+      <DependentUpon>RptFuerzaLaboralHHCC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptFuerzaLaboralHHCCByPeriodo.resx">
+      <DependentUpon>RptFuerzaLaboralHHCCByPeriodo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptFuerzaLaboralHHCCMes.resx">
+      <DependentUpon>RptFuerzaLaboralHHCCMes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Report\RptFuerzaLaboralHHCCSetting.resx">
+      <DependentUpon>RptFuerzaLaboralHHCCSetting.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\favicon.ico" />
+    <Content Include="Content\Images\ajax-loader.gif" />
+    <Content Include="Content\Images\AquaHeader.jpg" />
+    <Content Include="Content\Images\BlackGlassHeader.jpg" />
+    <Content Include="Content\Images\GlassHeader.jpg" />
+    <Content Include="Content\Images\loading.gif" />
+    <Content Include="Content\Images\PlasticBlueHeader.jpg" />
+    <Content Include="Content\Images\RedWineHeader.jpg" />
+    <Content Include="Content\Site.css" />
+    <Content Include="PageError.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Light.master" />
+    <Content Include="Login.aspx" />
+    <Content Include="Main.master" />
+    <Content Include="_Forms\UcwCandidatoEstudio.ascx" />
+    <Content Include="_Forms\UcwCandidatoinforme.ascx" />
+    <Content Include="_GTController\WebServCandidatoinforme.asmx" />
+    <Content Include="_GTContent\css\fontawesome.min.css" />
+    <Content Include="_GTContent\css\light.min.css" />
+    <Content Include="_GTContent\css\solid.min.css" />
+    <Content Include="_GTContent\icons\16-edit-icon.png" />
+    <Content Include="_GTContent\icons\16-five-o-clock-icon.png" />
+    <Content Include="_GTContent\icons\16-gnome-schedule-icon.png" />
+    <Content Include="_GTContent\icons\accept-icon-16.png" />
+    <Content Include="_GTContent\icons\alert-icon-16.png" />
+    <Content Include="_GTContent\icons\Calendar-icon24.png" />
+    <Content Include="_GTContent\icons\Calendar-selection-day-icon16.png" />
+    <Content Include="_GTContent\icons\Calendar-selection-day-icon24.png" />
+    <Content Include="_GTContent\icons\Click-cloud-icon.png" />
+    <Content Include="_GTContent\icons\cuestionario.png" />
+    <Content Include="_GTContent\icons\Cup-gold-icon.png" />
+    <Content Include="_GTContent\icons\delete-icon-16.png" />
+    <Content Include="_GTContent\icons\folder-icon.png" />
+    <Content Include="_GTContent\icons\folder-info-icon.png" />
+    <Content Include="_GTContent\icons\key-icon.png" />
+    <Content Include="_GTContent\icons\lock-icon.png" />
+    <Content Include="_GTContent\icons\lock-open-icon.png" />
+    <Content Include="_GTContent\icons\mailing-25-CF.png" />
+    <Content Include="_GTContent\icons\mailing-25-SF.png" />
+    <Content Include="_GTContent\icons\Microsoft-Excel-2013-icon.png" />
+    <Content Include="_GTContent\icons\Microsoft-OneDrive-icon.png" />
+    <Content Include="_GTContent\icons\Number-1-icon.png" />
+    <Content Include="_GTContent\icons\Number-1-icon24.png" />
+    <Content Include="_GTContent\icons\OneDrive-icon.png" />
+    <Content Include="_GTContent\icons\OneDrive-icon48.png" />
+    <Content Include="_GTContent\icons\Open-folder-accept-icon.png" />
+    <Content Include="_GTContent\icons\Open-folder-accept-icon24.png" />
+    <Content Include="_GTContent\icons\Open-folder-warning-icon.png" />
+    <Content Include="_GTContent\icons\phone-icon.png" />
+    <Content Include="_GTContent\icons\Presentation-icon.png" />
+    <Content Include="_GTContent\icons\Remove-event-icon16.png" />
+    <Content Include="_GTContent\icons\Remove-event-icon24.png" />
+    <Content Include="_GTContent\icons\Schedule-icon16.png" />
+    <Content Include="_GTContent\icons\Schedule-icon24.png" />
+    <Content Include="_GTContent\icons\schedule-mail-25-CF.png" />
+    <Content Include="_GTContent\icons\sign-add-icon.png" />
+    <Content Include="_GTContent\icons\sign-check-icon.png" />
+    <Content Include="_GTContent\icons\sign-delete-icon.png" />
+    <Content Include="_GTContent\icons\sign-error-icon.png" />
+    <Content Include="_GTContent\icons\sign-warning-icon.png" />
+    <Content Include="_GTContent\icons\star-icon.png" />
+    <Content Include="_GTContent\icons\star-icon2.png" />
+    <Content Include="_GTContent\icons\success-icon-16.png" />
+    <Content Include="_GTContent\icons\Calendar-blue24.png" />
+    <Content Include="_GTContent\icons\telegram-icon.png" />
+    <Content Include="_GTContent\icons\Trafficlight-green-icon-16.png" />
+    <Content Include="_GTContent\icons\Trafficlight-red-icon-16.png" />
+    <Content Include="_GTContent\icons\User-green-icon-16.png" />
+    <Content Include="_GTContent\icons\User-red-icon-16.png" />
+    <Content Include="_GTContent\icons\warning-icon-16.png" />
+    <Content Include="_GTContent\icons\whatsapp-icon.png" />
+    <Content Include="_GTContent\icons\whatsapp64.png" />
+    <Content Include="_GTContent\images\bg-login.jpg" />
+    <Content Include="_GTContent\images\files.png" />
+    <Content Include="_GTContent\images\logo-mpg.png" />
+    <Content Include="_GTContent\images\logo_128.png" />
+    <Content Include="_GTContent\images\logo_96.png" />
+    <Content Include="_GTContent\images\oaelapp.png" />
+    <Content Include="_GTContent\images\skydrive.png" />
+    <Content Include="_GTContent\images\whatsapp64.png" />
+    <Content Include="_GTContent\js\fontawesome.min.js" />
+    <Content Include="_GTContent\js\light.min.js" />
+    <Content Include="_GTContent\js\regular.min.js" />
+    <Content Include="_GTContent\js\solid.min.js" />
+    <Content Include="_GTContent\webfonts\fa-light-300.svg" />
+    <Content Include="_GTContent\webfonts\fa-regular-400.svg" />
+    <Content Include="_GTContent\webfonts\fa-solid-900.svg" />
+    <Content Include="_GTJScript\Anexoadmision.js" />
+    <Content Include="_GTJScript\Anexoadmisiondetalle.js" />
+    <Content Include="_GTJScript\Anexoadmisiontipo.js" />
+    <Content Include="_GTJScript\AprobacionCliente.js" />
+    <Content Include="_GTJScript\CandidatoEstudio.js" />
+    <Content Include="_GTJScript\Contrata.js" />
+    <Content Include="_GTJScript\Contratistacontrato.js" />
+    <Content Include="_GTJScript\ConsultaPersona.js" />
+    <Content Include="_GTJScript\Convocatoria.js" />
+    <Content Include="_GTJScript\Convocatoriamain.js" />
+    <Content Include="_GTJScript\Empresa.js" />
+    <Content Include="_GTJScript\Feedback.js" />
+    <Content Include="_GTJScript\Fuerzalaboral.js" />
+    <Content Include="_GTJScript\Fuerzalaboraldetalle.js" />
+    <Content Include="_GTJScript\Mesapartes.js" />
+    <Content Include="_GTJScript\Perfilpuesto.js" />
+    <Content Include="_GTJScript\Candidatoinforme.js" />
+    <Content Include="_GTJScript\Requerimiento.js" />
+    <Content Include="_GTJScript\Requerimientodetalle.js" />
+    <Content Include="_GTJScript\Tdocupacion.js" />
+    <Content Include="_GTJScript\Unidadminera.js" />
+    <Content Include="_GTJScript\Usuariocontrata.js" />
+    <Content Include="_GTJScript\_GTHandleMain.js" />
+    <Content Include="_GTJScript\_GTHandleMainDetalle.js" />
+    <Content Include="_GTJScript\_GTMainCore.js" />
+    <Content Include="_GTJScript\_GTMainCoreDetalle.js" />
+    <Content Include="_GTJScript\_jquery-3.3.0.min.js" />
+    <Content Include="_Report\DashboardFFLLCustom.aspx" />
+    <Content Include="_Report\DashboardFFLLPorCodigo.xml" />
+    <Content Include="_Report\FrmReporteCliente.aspx" />
+    <Content Include="_Report\FrmRptAnexoAdmision.aspx" />
+    <Content Include="_Report\FrmRptDashboardViewer.aspx" />
+    <Content Include="_Report\FrmRptFuerzaLaboral.aspx" />
+    <Content Include="_Report\FrmRptViewer.aspx" />
+    <Content Include="_Views\FrmContrato.aspx" />
+    <Content Include="_Views\FrmAnexoAdmision.aspx" />
+    <Content Include="_Views\FrmMesaPartes.aspx" />
+    <Content Include="_Views\FrmPostulante.aspx" />
+    <Content Include="_Views\FrmUsuarioContrata.aspx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\GTOAEL.pubxml" />
+    <None Include="My Project\PublishProfiles\GTWeb.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Root.master" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="_GTContent\webfonts\fa-light-300.eot" />
+    <Content Include="_GTContent\webfonts\fa-light-300.ttf" />
+    <Content Include="_GTContent\webfonts\fa-light-300.woff" />
+    <Content Include="_GTContent\webfonts\fa-light-300.woff2" />
+    <Content Include="_GTContent\webfonts\fa-solid-900.eot" />
+    <Content Include="_GTContent\webfonts\fa-solid-900.ttf" />
+    <Content Include="_GTContent\webfonts\fa-solid-900.woff" />
+    <Content Include="_GTContent\webfonts\fa-solid-900.woff2" />
+    <Content Include="_GTContent\webfonts\fa-regular-400.eot" />
+    <Content Include="_GTContent\webfonts\fa-regular-400.ttf" />
+    <Content Include="_GTContent\webfonts\fa-regular-400.woff" />
+    <Content Include="_GTContent\webfonts\fa-regular-400.woff2" />
+    <!--<Content Include="Site.Master" />-->
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="_GTView\" />
+    <Folder Include="_Helper\" />
+  </ItemGroup>
+  <!--<ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>-->
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49700</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:4536/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,696 @@
+<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Root.master.vb" Inherits="GTWebOAEL.RootMaster" %>
+
+<%-- DXCOMMENT: Page Root.master is a master page that contains the root layout (it includes Header, Cental Area, and Footer) --%>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>Manpower Group</title>
+    <link rel="stylesheet" type="text/css" href="Content/Site.css" />
+     <%--<link rel="stylesheet" type="text/css" href="_GTContent/css/fontawesome.min.css" />--%>
+    <%--<script type="text/javascript" src="_GTContent/css/fontawesome.min.js" ></script>--%>
+     <script type="text/javascript">
+         var idOperacion = 0;
+         function onCommandExecuted(s, e) {
+             if (e.item.name == "BtnCerrarSesion") {
+                 BtnCerrarLogin.DoClick();
+                 e.processOnServer = false;
+             }
+             else if (e.item.name == "BtnCambiarClave") {
+                 idOperacion = 1;
+                 var popupWindow = PopupFormChangeClave.GetWindow(0);                 
+                 PopupFormChangeClave.ShowWindow(popupWindow);
+                 e.processOnServer = false;
+             }
+             else if (e.item.name == "BtnSubContrataAgrega") {
+                 idOperacion = 2;
+                 var popupWindow = PopupFormSubContrata.GetWindow(0);
+                 PopupFormSubContrata.ShowWindow(popupWindow);
+                 e.processOnServer = false;
+             }
+
+         }
+         function OnBtnGuardarClaveClick(s, e) {
+             if (ASPxClientEdit.ValidateEditorsInContainer(FormLayoutPopupChangeClave.GetMainElement(), null, true)) {
+                 CallBackMainPage.PerformCallback('CambiarClave');
+                 e.processOnServer = false;
+             }
+             else {
+                 e.processOnServer = false;
+             }
+         }
+         function OnBtnCerrarFormClaveClick(s, e) {
+             var popupWindow = PopupFormChangeClave.GetWindow(0);
+             PopupFormChangeClave.HideWindow(popupWindow);
+             e.processOnServer = false;
+         }
+
+         function onClaveNuevaValidation(s, e) {
+             //var claveNueva = e.value;
+             //var claveNueva2 = cClaveNueva2.GetValue();
+             //if (claveNueva == claveNueva2)
+             //{ e.isValid = true; }
+             //else {
+             //    e.isValid = false;
+             //}
+             
+         }
+         function onClaveNueva2Validation(s, e) {
+             var claveNueva2 = e.value;
+             var claveNueva = cClaveNueva.GetValue();
+             if (claveNueva == claveNueva2)
+             { e.isValid = true; }
+             else {
+                 e.isValid = false;
+             }
+
+         }
+
+
+         function OnEndCallBackMainPage(s, e) {
+            // HANDLER PARA MANIPULAR LOS MENSAJES DE SALIDA
+
+             if (e.result == 'OK') {
+                 if (idOperacion == 1) {
+                     ShowAlertMessageMain("Se cambió la clave con éxito");
+                     var popupWindow = PopupFormChangeClave.GetWindow(0);
+                     PopupFormChangeClave.HideWindow(popupWindow);
+                     e.processOnServer = false;
+
+                 }
+                 else if (idOperacion == 2) {
+                     ShowAlertMessageMain("Registro exitoso, recargue la página para ver los cmbios");
+                     var popupWindow = PopupFormSubContrata.GetWindow(0);
+                     PopupFormSubContrata.HideWindow(popupWindow);
+                     e.processOnServer = false;
+                 }
+
+             }
+             else {
+                 var fail = e.result.split('-');
+                 
+                 ShowAlertMessageMain('Error : ' + fail[1]);
+                 
+             }
+            
+         }// FIN END FUNCTION CALLBACK
+         function ShowAlertMessageMain(pMsg) {
+             var pMsgLocal = pMsg;
+             //$('#gtAlertMessage').html('ejemlpo');
+             PopupAlertMessageMain.SetContentHtml(pMsgLocal);
+
+             PopupAlertMessageMain.ShowAtPos(document.documentElement.clientWidth, document.documentElement.clientHeight);
+             setTimeout(function () { PopupAlertMessageMain.Hide(); }, 5000);
+             //PopupAlertMessage.SetContentHtml('');
+         }
+
+
+         
+         function cRUCSubContrataMain_KeyPress(s, e) {
+             if ((e.htmlEvent.keyCode >= 48 && e.htmlEvent.keyCode <= 57) || (e.htmlEvent.keyCode >= 65 && e.htmlEvent.keyCode <= 90) || (e.htmlEvent.keyCode >= 97 && e.htmlEvent.keyCode <= 122))
+             { return true; }
+             else {
+                 ASPxClientUtils.PreventEvent(e.htmlEvent);
+             }
+             if (e.htmlEvent.keyCode == 13) {
+                 s.Validate();
+                 if (s.isValid) {
+                     GetDatosRUC();
+                 }
+             }
+         }
+
+         function cRUCSubContrataMain_Validation(s, e) {
+             var eText = s.GetText();
+             if ((eText.length < 11) || (eText.length > 11)) {
+
+                 e.isValid = false;
+             }
+             else {
+                 e.isValid = true;
+             }
+         }
+         function cRUCSubContrataMain_OnButtonClick(s, e) {
+       
+             s.Validate();
+             if (s.isValid) {
+                 GetDatosRUC();
+             }
+         }
+
+
+         function GetDatosRUC() {
+             
+             //alert("buscara");
+             var pDoc = cRUCSubContrataMain.GetValue();
+             //"@Url.Action("UpdateCheckBox", "CeduleGlobale")"
+             //url: "/" + pTable + ".aspx/GetEmpresaCloud",
+             var pTable = "Default";
+              pDoc = pDoc.trim();
+              cRUCSubContrataMain.SetEnabled(false);
+              cNomSubContrataMain.SetText('Buscando Datos......');
+              $.ajax(
+                    {
+                        url: "/OAEL/" + pTable + ".aspx/GetEmpresaCloud",
+                        data: "{'pDoc':'" + pDoc + "'}",
+                        dataType: "json",
+                        type: "POST",
+                        contentType: "application/json; charset=utf-8",
+                        success: function (response) {
+                            var data = response.d;
+                            data = $.parseJSON(data);
+                            //cApellidos.SetText((data.apellido_paterno + ' ' + data.apellido_materno).trim());
+                            //cNombres.SetText((data.nombres).trim());
+                            var _result = data.success;
+                            if (_result == true) {
+
+                                //cRUCSubContrataMain.SetText((data.apellidos).trim());
+                                cNomSubContrataMain.SetText((data.razonsocial));
+                                cRUCSubContrataMain.SetEnabled(false);
+                                $("#MensajeRespuestaSubContrata").css("display", "none");
+                            }
+                            else {
+                                $("#MensajeRespuestaSubContrata").css("display", "block");
+                                cRUCSubContrataMain.SetEnabled(true);
+                                cRUCSubContrataMain.SetText('');
+                                cNomSubContrataMain.SetText('');
+                            }
+                        },
+                        fail: function (result) {
+                            cRUCSubContrataMain.SetText('');
+                            cNomSubContrataMain.SetText('');
+                            //alert("FAIL " + result.status + ' ' + result.statusText);
+                        },
+                        error: function (result) {
+                            cRUCSubContrataMain.SetText('');
+                            cNomSubContrataMain.SetText('');
+                            //alert("ERROR " + result.status + ' ' + result.statusText);
+                        }
+                    });
+
+
+              //cApellidos.SetEnabled(true);
+              //cNombres.SetEnabled(true);
+
+         }
+
+         function OnBtnGuardarSubContrata_Click(s,e) {
+             if (ASPxClientEdit.ValidateEditorsInContainer(FormLayoutSubContrata.GetMainElement(), null, true)) {
+                 CallBackMainPage.PerformCallback('AgregaSubContrata');
+                 e.processOnServer = false;
+             }
+             else {
+                 e.processOnServer = false;
+             }
+         }
+
+     </script>
+
+</head>
+<body runat="server" id="Body">
+    <form id="form1" runat="server">
+        <dx:ASPxPanel ID="HeaderPane" runat="server" EnableHierarchyRecreation="false" FixedPosition="WindowTop" ClientInstanceName="headerPane" CssClass="headerPane" Collapsible="true">
+            <SettingsAdaptivity CollapseAtWindowInnerWidth="500" />
+            <Styles>
+                <Panel CssClass="panel"></Panel>
+                <ExpandedPanel CssClass="expandedPanel"></ExpandedPanel>
+                <ExpandBar CssClass="bar"></ExpandBar>
+            </Styles>
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                        <div id="MenuRibbonGT" class="headerTop">
+                           
+    <dx:ASPxRibbon ID="ASPxRibbon1" runat="server" ShowFileTab="False" >
+
+     
+        <Tabs>
+            <dx:RibbonTab Name="TabOperacionesOAEL" Text="Operaciones OAEL">
+                <Groups>
+                    <dx:RibbonGroup Name="GrupoOperacionesOAEL" Text="Operaciones OAEL">
+                        <Items>
+                            <dx:RibbonDropDownButtonItem Name="BtnOperacionesContrata" Text="Gestión EECC" Size="Large">
+                                <Items>
+                                  
+                                     <dx:RibbonDropDownButtonItem Name="BtnContratosContrata" Text="Gestión de mis Contratos" NavigateUrl="~/_Views/FrmContrato.aspx"  >
+                                        <SmallImage IconID="programming_projectfile_16x16office2013">
+                                        </SmallImage>
+                                    </dx:RibbonDropDownButtonItem>
+                                    
+                                     <dx:RibbonDropDownButtonItem Name="BtnUsuariosContrata" Text="Gestion de Usuarios"   NavigateUrl="~/_Views/FrmUsuarioContrataActivo.aspx"  >
+                                        <SmallImage IconID="actions_newcustomers_16x16devav">
+                                        </SmallImage>
+                                    </dx:RibbonDropDownButtonItem>
+
+                                    <dx:RibbonDropDownButtonItem Name="BtnSubContrataAgrega" Text="Agregar Sub Contrata" >
+                                        <SmallImage IconID="print_salesbystore_16x16devav">
+                                        </SmallImage>
+                                    </dx:RibbonDropDownButtonItem>
+                                </Items>
+                                <LargeImage IconID="programming_build_32x32office2013">
+                                </LargeImage>
+                            </dx:RibbonDropDownButtonItem>
+
+                          
+                            <%--   <dx:RibbonButtonItem Name="BtnConvocatoria" Text="Convocatorias Personal" NavigateUrl="~/_Views/FrmConvocatoria.aspx" Size="Large">
+                                <LargeImage IconID="actions_newitem_32x32devav">
+                                </LargeImage>
+                            </dx:RibbonButtonItem>--%>
+
+                           
+                           
+
+
+                             <dx:RibbonButtonItem Text="Feedback de Convocatoria" NavigateUrl="~/_Views/FrmFeedBack.aspx" Name="BtnContrataFeedback" Size="Large">
+                                <LargeImage IconID="programming_forcetesting_32x32office2013" ></LargeImage>
+                            </dx:RibbonButtonItem>
+                            <dx:RibbonButtonItem Name="BtnRegistroPGI" Text="Solicitud de Ingreso PGI-A5" NavigateUrl="~/_Views/FrmAnexoAdmision.aspx" Size="Large">
+                                <LargeImage IconID="actions_insert_32x32office2013">
+                                </LargeImage>
+                            </dx:RibbonButtonItem>
+                            <dx:RibbonButtonItem Name="BtnFuerzaLaboral" NavigateUrl="~/_Views/FrmFuerzaLaboral.aspx" Size="Large" Text="Fuerza Laboral">
+                                <LargeImage IconID="people_publicfix_32x32office2013">
+                                </LargeImage>
+                            </dx:RibbonButtonItem>
+                           
+
+                          <dx:RibbonButtonItem Text="Buscar Persona ..." NavigateUrl="_Views/FrmConsultaPersona.aspx" Name="BtnConsultaOAELEECC" Size="Large">
+                                <LargeImage IconID="zoom_zoom_32x32office2013" ></LargeImage>
+                            </dx:RibbonButtonItem>
+
+                        
+                             <dx:RibbonDropDownButtonItem Name="BtnDashboardOAEL" Text="Analytics OAEL" Size="Large">
+                                <Items>
+                                  
+                                     <dx:RibbonDropDownButtonItem Name="BtnConsultaFFLLDet" Text="Reporte de Fuerza Laboral Detallado" NavigateUrl="_Report/FrmRptFuerzaLaboral.aspx"   >
+                                        <SmallImage IconID="scheduling_today_16x16office2013">
+                                        </SmallImage>
+                                    </dx:RibbonDropDownButtonItem>
+                                    <dx:RibbonDropDownButtonItem Name="BtnConsultaFFLLRes" Text="Reporte de Fuerza Laboral Resumen" NavigateUrl="_Report/FrmRptDashboardViewer.aspx?cTipoReporte=FFLLResumen"  >
+                                        <SmallImage IconID="chart_chart_16x16office2013">
+                                        </SmallImage>
+                                    </dx:RibbonDropDownButtonItem>
+                                     <dx:RibbonDropDownButtonItem Name="BtnDashboardPGIResumen" Text="Reporte Seguimiento RDP A5" NavigateUrl="_Report/FrmRptAnexoAdmision.aspx"  >
+                                        <SmallImage IconID="chart_piestylepie_16x16office2013">
+                                        </SmallImage>
+                                    </dx:RibbonDropDownButtonItem>
+                                </Items>
+                                <LargeImage IconID="chart_line_32x32office2013">
+                                </LargeImage>
+                            </dx:RibbonDropDownButtonItem>
+                            <%-- <dx:RibbonButtonItem Text="Requerimientos ByS" NavigateUrl="~/_Views/FrmRequerimiento.aspx" Name="BtnRequerimientoBS" Size="Large">
+                                <LargeImage IconID="actions_newsales_32x32devav" ></LargeImage>
+                            </dx:RibbonButtonItem>--%>
+                         
+                        </Items>
+                    </dx:RibbonGroup>
+                    <dx:RibbonGroup Name="GrupoMisc" Text="Misc">
+                        <Items>                               
+                            <dx:RibbonButtonItem Name="BtnCambiarClave" Size="Large" Text="Cambiar Clave">
+                                <LargeImage Url="~/_GTContent/icons/key-icon.png">
+                                </LargeImage>
+                            </dx:RibbonButtonItem>
+                            <dx:RibbonButtonItem Name="BtnCerrarSesion" Size="Large" Text="Cerrar Sesión" >
+                                <LargeImage IconID="actions_close_32x32office2013">
+                                </LargeImage>
+                            </dx:RibbonButtonItem>
+                        </Items>
+                    </dx:RibbonGroup>
+                </Groups>
+            </dx:RibbonTab>
+            <dx:RibbonTab Text="Cat&#225;logos" Name="TabCatalogos">
+                <Groups>
+                    <dx:RibbonGroup Text="Opciones" Name="Opciones">
+                        <Items>
+                            <dx:RibbonButtonItem Name="BtnUsuarios" NavigateUrl="~/_Views/FrmUsuarioContrata.aspx" Size="Large" Text="Usuarios">
+                                <LargeImage IconID="people_team_32x32office2013">
+                                </LargeImage>
+                            </dx:RibbonButtonItem>
+                            <dx:RibbonButtonItem Name="BtnCorreoEnvios" NavigateUrl="~/_Views/FrmCorreoEnvio.aspx" Size="Large" Text="Correos Envio">
+                                <LargeImage IconID="mail_send_32x32office2013">
+                                </LargeImage>
+                            </dx:RibbonButtonItem>
+                        </Items>
+                    </dx:RibbonGroup>
+                </Groups>
+            </dx:RibbonTab>
+
+            <dx:RibbonTab Text="Reportes" Name="TabReportes">
+                     <Groups>
+                    <dx:RibbonGroup Text="Reportes" Name="GrupoReportes">
+                        <Items>
+                            <dx:RibbonButtonItem Name="BtnReporteCliente" NavigateUrl="~/_Report/FrmReporteCliente.aspx" Size="Large" Text="Reportes Cliente">
+                                <LargeImage IconID="chart_pie_32x32office2013">
+                                </LargeImage>
+                            </dx:RibbonButtonItem>
+
+                        </Items>
+                    </dx:RibbonGroup>
+                </Groups>
+            </dx:RibbonTab>
+
+            <dx:RibbonTab Text="Ayuda" Name="TabAyuda">
+                <Groups>
+                    <dx:RibbonGroup Text="Recursos de Ayuda" Name="GrupoAyuda">
+                        <Items>
+                            <dx:RibbonButtonItem NavigateUrl="https://manpowergrouperu-my.sharepoint.com/:f:/g/personal/oael_manpowerperu_pe/EsLzNwvmDMdHo0D0kGW1MDMB6M7Yj4xemtgpWgT7OIdo9Q?e=T6jesv" Target="_blank" Text="Manual de Usuario" Name="BtnAyudaManual" Size="Large">
+                                <LargeImage IconID="support_knowledgebasearticle_32x32office2013"></LargeImage>
+                            </dx:RibbonButtonItem>
+                            <dx:RibbonButtonItem NavigateUrl="https://chat.whatsapp.com/LS1oJoYFUUhLiVqnMw7RJF" Target="_blank" Text="Soporte WhatsApp" Name="BtnAyudaTelegram" Size="Large">
+                                <LargeImage Url="~/_GTContent/icons/whatsapp64.png"></LargeImage>
+                            </dx:RibbonButtonItem>
+                        </Items>
+                    </dx:RibbonGroup>
+                    <dx:RibbonGroup Text="Upload One Drive" Name="GrupoNube">
+                        <Items>
+                            <dx:RibbonTemplateItem>
+                                <Template>
+                                    <div style="padding:2px 0px 0px 0px;">
+                                   
+                                    <div style="display:block;">
+                                        <a href="<%:Session("cUrlPGI")%>" target="_blank" style="text-decoration:none;"> 
+                                             <div style="padding:12px 4px 4px 4px;">
+                                               <%--  <img src="~/_GTContent/icons/OneDrive-icon.png" />--%>
+                                                 <dx:ASPxImage ID="ASPxImage1" runat="server" ShowLoadingImage="false" ImageUrl="~/_GTContent/icons/OneDrive-icon.png"></dx:ASPxImage>
+
+                                             </div>
+                                             
+                                            <div>One Drive <br /> RDP Anexo 5</div>
+                                           
+                                        </a></div>
+                                    </div>
+                                </Template>
+                                
+                            </dx:RibbonTemplateItem>
+                            <%--<dx:RibbonButtonItem   Target="_blank" Text="One Drive RDP Anexo 05 - PGI" Name="BtnOneDrivePGI" Size="Large"  >
+                                <LargeImage IconID="support_knowledgebasearticle_32x32office2013"></LargeImage>
+                            </dx:RibbonButtonItem>--%>
+                            
+                        </Items>
+                    </dx:RibbonGroup>
+                </Groups>
+            </dx:RibbonTab>
+        </Tabs>
+              <ClientSideEvents CommandExecuted="onCommandExecuted"  />                  
+                            </dx:ASPxRibbon>
+
+
+                        </div>
+                        <div class="headerMenu">
+                            
+                        </div>
+                </dx:PanelContent>
+            </PanelCollection>
+            <ExpandBarTemplate>
+                <div class="templateTitle">
+                    <a id="TitleLink" href="~/" runat="server">Manpower</a>
+                </div>
+            </ExpandBarTemplate>
+        </dx:ASPxPanel>
+
+        <script type="text/javascript">
+            function updateHeaderMenuOrientation(){
+                if(!window.headerMenu) return;
+                var orientation = headerPane.IsExpandable() ? 'Vertical' : 'Horizontal';
+                if(orientation !== headerMenu.GetOrientation()) 
+                    headerMenu.SetOrientation(orientation);
+            }
+        </script>
+
+        <dx:ASPxGlobalEvents runat="server">
+            <ClientSideEvents ControlsInitialized="updateHeaderMenuOrientation" BrowserWindowResized="updateHeaderMenuOrientation" />
+        </dx:ASPxGlobalEvents>
+
+
+        <dx:ASPxPanel ID="MainPane" runat="server" CssClass="mainContentPane">
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                    <asp:ContentPlaceHolder ID="Content" runat="server" />
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+
+        <dx:ASPxPanel ID="FooterPane" runat="server" FixedPosition="WindowBottom" ClientInstanceName="footerPane" CssClass="footerPane">
+            <SettingsAdaptivity HideAtWindowInnerWidth="500" />
+            <Styles>
+                <Panel CssClass="panel"></Panel>
+            </Styles>
+            <PanelCollection>
+                <dx:PanelContent runat="server" SupportsDisabledAttribute="True">
+                    <!--div class="footerMenu">
+                    </--div-->
+                    <%--<div>
+                        <i class="fas fa-anchor"></i>
+                    </div>--%>
+                       <%-- <div class="copyright">--%>
+                            <dx:ASPxLabel CssClass="infoManpower"  ID="LblInfoManpower" runat="server" Text="">                                
+                                </dx:ASPxLabel>
+                    <dx:ASPxButton ID="BtnCerrarLogin" ClientInstanceName="BtnCerrarLogin" ClientVisible="false" runat="server" Text="ASPxButton" OnClick="BtnCerrarLogin_Click"></dx:ASPxButton>
+                            <dx:ASPxLabel CssClass ="infoUsuario" ID="LblInfoUsuario" runat="server" Text="">                                
+                            </dx:ASPxLabel>
+
+                    <dx:ASPxCallback ID="CallBackMainPage" runat="server" ClientInstanceName="CallBackMainPage">
+              <ClientSideEvents CallbackComplete="OnEndCallBackMainPage" />
+          </dx:ASPxCallback>
+
+                        <%--</div>--%>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+
+
+      <%-- ***************************** SECCION POPUPS  ***************************** --%>
+      <dx:ASPxPopupControl ID="PopupFormChangeClave" runat="server" Modal="True" ClientInstanceName="PopupFormChangeClave" 
+        PopupElementID="PopupFormChangeClave" PopupHorizontalAlign="WindowCenter" Width="500" PopupVerticalAlign="WindowCenter" 
+        MaxWidth="500"   MinWidth="360px" CloseAction="CloseButton" CloseAnimationType="Fade"  >
+          <Windows>
+              <dx:PopupWindow CloseAction="CloseButton" CloseOnEscape="False" Modal="True"
+                ScrollBars="None" AutoUpdatePosition="True" HeaderText="Cambio de Contraseña" ShowFooter="False">
+                  <ContentCollection>
+                      <dx:PopupControlContentControl ID="PopupControlContentControl5" runat="server">
+                          <%--********* INI CONTENT FORM MAIN *********--%>
+                          <div>
+                              <dx:ASPxFormLayout runat="server" ID="FormLayoutPopupChangeClave" CssClass="formLayout" ClientInstanceName="FormLayoutPopupChangeClave" >
+                                  <SettingsAdaptivity AdaptivityMode="SingleColumnWindowLimit" SwitchToSingleColumnAtWindowInnerWidth="500" />
+                                  <Items>
+                                                                                       	
+                                      
+                                       <dx:LayoutGroup ColCount="1"   GroupBoxDecoration="None" UseDefaultPaddings="false" Caption="">
+                                          <Items>
+                                                
+                                              <%--***ITEM FORM ***--%>
+                                                      <dx:LayoutItem Caption="Contraseña Actual">
+                                                          <LayoutItemNestedControlCollection>
+                                                              <dx:LayoutItemNestedControlContainer>
+                                                                 <dx:ASPxTextBox runat="server" ID="cClave" ClientInstanceName="cClave" CssClass=""   Password="True">
+																	<ValidationSettings RequiredField-IsRequired="true" Display="Dynamic" >
+<RequiredField IsRequired="True"></RequiredField>
+                                                                     </ValidationSettings>
+																</dx:ASPxTextBox>
+                                                              </dx:LayoutItemNestedControlContainer>
+                                                          </LayoutItemNestedControlCollection>
+                                                      </dx:LayoutItem>
+                                                        	
+
+                                             <%--***ITEM FORM ***--%>
+													<dx:LayoutItem Caption="Nueva Contraseña">
+														<LayoutItemNestedControlCollection>
+															<dx:LayoutItemNestedControlContainer>																
+                                                                           <dx:ASPxTextBox runat="server" ID="cClaveNueva" ClientInstanceName="cClaveNueva" CssClass="" Password="True" 
+                                                                                HelpText="Debe contener 08 caracteres como mínimo, una mayúcula y un número. " HelpTextSettings-DisplayMode="Inline">
+
+
+																	<ValidationSettings RequiredField-IsRequired="true" Display="Dynamic" >
+<RequiredField IsRequired="True"></RequiredField>
+                                                                               </ValidationSettings>
+                                                                               <ClientSideEvents Validation="onClaveNuevaValidation" />
+                                                                              
+																</dx:ASPxTextBox>                                                                                                                  
+															</dx:LayoutItemNestedControlContainer>
+														</LayoutItemNestedControlCollection>
+													</dx:LayoutItem>
+											
+												
+                                             <%--***ITEM FORM ***--%>
+													<dx:LayoutItem Caption="Repita Contraseña">
+														<LayoutItemNestedControlCollection>
+															<dx:LayoutItemNestedControlContainer>
+																
+                                                               <dx:ASPxTextBox runat="server" ID="cClaveNueva2" ClientInstanceName="cClaveNueva2" CssClass="" Password="True"  >
+																	<ValidationSettings RequiredField-IsRequired="true" Display="Dynamic" ValidateOnLeave="true" >
+<RequiredField IsRequired="True"></RequiredField>
+                                                                    </ValidationSettings>
+                                                                   <ClientSideEvents Validation="onClaveNueva2Validation" />
+																</dx:ASPxTextBox>
+                                                                                                                              
+															</dx:LayoutItemNestedControlContainer>
+														</LayoutItemNestedControlCollection>
+													</dx:LayoutItem>
+
+                                              <%--*** COMMANDS BUTTON ***--%>
+                                              <dx:LayoutItem ShowCaption="False" HorizontalAlign="Right" Width="100%">
+                                                  <LayoutItemNestedControlCollection>
+                                                      <dx:LayoutItemNestedControlContainer>
+                                                       
+                                                          <table style="margin-top:12px!important;">
+                                                              <tr>
+                                                                  
+                                                                  <td style="padding-right: 10px;">
+                                                                      <dx:ASPxButton ID="BtnGuardarClave" runat="server" Text="Guardar" Width="100px" ClientInstanceName="BtnGuardarClave" AutoPostBack="false">
+                                                                          <ClientSideEvents Click="OnBtnGuardarClaveClick" />
+                                                                      </dx:ASPxButton>
+                                                                  </td>
+                                                                  <td>
+                                                                      <dx:ASPxButton ID="BtnCerrarFormClave" runat="server" Text="Cancelar" Width="100" ClientInstanceName="BtnCerrarFormClave" AutoPostBack="false">
+                                                                          <ClientSideEvents Click="OnBtnCerrarFormClaveClick">
+                                                                          </ClientSideEvents>
+                                                                      </dx:ASPxButton>
+                                                                  </td>
+                                                              </tr>
+                                                          </table>
+                                                      </dx:LayoutItemNestedControlContainer>
+                                                  </LayoutItemNestedControlCollection>
+                                              </dx:LayoutItem>
+                                                 
+
+                                          </Items>
+                                      </dx:LayoutGroup>
+
+
+                                  </Items>
+                              </dx:ASPxFormLayout>
+                          </div>
+                          <%--********* END CONTENT FORM MAIN *********--%>
+                      </dx:PopupControlContentControl>
+                  </ContentCollection>
+              </dx:PopupWindow>
+          </Windows>
+       
+      </dx:ASPxPopupControl>
+
+
+        <%-- ***************************** FORMULARIO AGREGAR SUB CONTRATA  ***************************** --%>
+      <dx:ASPxPopupControl ID="PopupFormSubContrata" runat="server" Modal="True" ClientInstanceName="PopupFormSubContrata" 
+        PopupElementID="FormSubContrataGestion" PopupHorizontalAlign="WindowCenter" Width="640" PopupVerticalAlign="WindowCenter" 
+        MaxWidth="800"   MinWidth="640px" CloseAction="CloseButton" CloseAnimationType="Fade"  >
+          <Windows>
+              <dx:PopupWindow CloseAction="CloseButton" CloseOnEscape="False" Modal="True"
+                ScrollBars="None" AutoUpdatePosition="True" HeaderText="Agregar Sub Contrata" ShowFooter="False">
+                  <ContentCollection>
+                      <dx:PopupControlContentControl ID="PopupControlContentControl1" runat="server">
+                          <%--********* INI CONTENT FORM MAIN *********--%>
+                          <div>
+                              <dx:ASPxFormLayout runat="server" ID="FormLayoutSubContrata" CssClass="formLayout" ClientInstanceName="FormLayoutSubContrata" >
+                                  <SettingsAdaptivity AdaptivityMode="SingleColumnWindowLimit" SwitchToSingleColumnAtWindowInnerWidth="500" />
+                                  <Items> 
+                                       <dx:LayoutGroup ColCount="1"   GroupBoxDecoration="None" UseDefaultPaddings="false" Caption="">
+                                          <Items> 
+                                            <%--***ITEM FORM ***--%>
+                                            <dx:LayoutItem Caption="RUC Empresa">
+                                                <LayoutItemNestedControlCollection>
+                                                    <dx:LayoutItemNestedControlContainer>
+                                                           
+                                                        <dx:ASPxButtonEdit ID="cRUCSubContrataMain" runat="server" NullText="Digite el RUC y presione buscar..."  
+                                                            ClientInstanceName="cRUCSubContrataMain"  ClientSideEvents-ButtonClick="cRUCSubContrataMain_OnButtonClick" AutoPostBack="false"
+                                                            >
+ 
+                                                            <ClientSideEvents KeyPress="cRUCSubContrataMain_KeyPress" 
+                                                                LostFocus="function(s, e) {s.Validate();}" 
+                                                                Validation="cRUCSubContrataMain_Validation" 
+                                                                />  
+                                                                      
+                                                            <ValidationSettings RequiredField-IsRequired="true" ErrorDisplayMode="ImageWithTooltip" ErrorText="Cantidad de caracteres inválido"   Display="Dynamic"  />
+                                                                               
+
+                                                            <Buttons>
+                                                                <dx:SpinButtonExtended Image-IconID="find_find_16x16gray" >
+                                                                    <Image IconID="find_find_16x16gray"></Image>
+                                                                </dx:SpinButtonExtended>
+                                                            </Buttons>
+                                                        </dx:ASPxButtonEdit>
+                                                        </dx:LayoutItemNestedControlContainer>
+                                                </LayoutItemNestedControlCollection>
+                                            </dx:LayoutItem>
+                                                        
+                                            <%--***ITEM FORM ***--%>
+                                            <dx:LayoutItem Caption="Razón Social">
+                                                <LayoutItemNestedControlCollection>
+                                                    <dx:LayoutItemNestedControlContainer>
+                                                            <dx:ASPxTextBox ID="cNomSubContrataMain" runat="server"   Visible="True" ClientVisible="True" ClientInstanceName="cNomSubContrataMain"  CssClass="toUpper" ReadOnly="true" ReadOnlyStyle-BackColor="WhiteSmoke">
+                                                                <ValidationSettings RequiredField-IsRequired="true" Display="Dynamic" >
+                                                                </ValidationSettings>
+                                                            </dx:ASPxTextBox>
+                                                        </dx:LayoutItemNestedControlContainer>
+                                                </LayoutItemNestedControlCollection>
+                                            </dx:LayoutItem>
+                                               <dx:LayoutItem Caption="">
+                                                <LayoutItemNestedControlCollection>
+                                                    <dx:LayoutItemNestedControlContainer>
+                                                           <div id="MensajeRespuestaSubContrata" style="display:none;">No se encontraron Datos. Verifique que el RUC sea válido si el problema persiste solicite 
+                                                               el registro en el grupo de soporte WhatsApp.
+                                                           </div>
+
+                                                        </dx:LayoutItemNestedControlContainer>
+                                                </LayoutItemNestedControlCollection>
+                                            </dx:LayoutItem>
+                                               
+                                              <%--*** COMMANDS BUTTON ***--%>
+                                              <dx:LayoutItem ShowCaption="False" HorizontalAlign="Right" Width="100%">
+                                                  <LayoutItemNestedControlCollection>
+                                                      <dx:LayoutItemNestedControlContainer>
+                                                       
+                                                          <table style="margin-top:12px!important;">
+                                                              <tr>
+                                                                  
+                                                                  <td style="padding-right: 10px;">
+                                                                      <dx:ASPxButton ID="BtnGuardarSubContrata" runat="server" Text="Guardar" Width="100px" ClientInstanceName="BtnGuardarSubContrata" AutoPostBack="false">
+                                                                          <ClientSideEvents Click="OnBtnGuardarSubContrata_Click" />
+                                                                      </dx:ASPxButton>
+                                                                  </td>
+                                                                  <td>
+                                                                      <dx:ASPxButton ID="BtnCancelarSubContrata" runat="server" Text="Cancelar" Width="100" ClientInstanceName="BtnCancelarSubContrata" AutoPostBack="false">
+                                                                          <%--<ClientSideEvents Click="OnBtnCancelarSubContrata_Click">
+                                                                          </ClientSideEvents>--%>
+                                                                      </dx:ASPxButton>
+                                                                  </td>
+                                                              </tr>
+                                                          </table>
+                                                      </dx:LayoutItemNestedControlContainer>
+                                                  </LayoutItemNestedControlCollection>
+                                              </dx:LayoutItem>
+                                                 
+
+                                          </Items>
+                                      </dx:LayoutGroup>
+
+
+                                  </Items>
+                              </dx:ASPxFormLayout>
+                          </div>
+                          <%--********* END CONTENT FORM MAIN *********--%>
+                      </dx:PopupControlContentControl>
+                  </ContentCollection>
+              </dx:PopupWindow>
+          </Windows>
+       <ClientSideEvents    Shown="function(s,e){
+               cRUCSubContrataMain.SetEnabled(true);
+                cRUCSubContrataMain.SetText('');
+                cNomSubContrataMain.SetText('');
+              }" >
+              
+          </ClientSideEvents>
+      </dx:ASPxPopupControl>
+
+         <%--******** POPUP NOTIFICATIONS **********************************************************--%>
+      <dx:ASPxPopupControl ID="PopupAlertMessageMain" runat="server"  ClientInstanceName="PopupAlertMessageMain"
+         Width="260px" PopupHorizontalAlign="LeftSides" PopupVerticalAlign="Below" 
+        HeaderStyle-CssClass="AlertSuccess-Header" HeaderText="Mensaje" >
+                 <ContentCollection>
+                      <dx:PopupControlContentControl ID="PopupControlContentAlertMain" runat="server" CssClass="AlertSuccess-Content" >
+                         
+                      </dx:PopupControlContentControl>
+                  </ContentCollection>               
+      </dx:ASPxPopupControl>
+    </form>
+</body>
+</html>
